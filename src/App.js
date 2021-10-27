@@ -10,9 +10,7 @@ import Animals from "./sites/Animals";
 import Contact from "./sites/Contact";
 import Footer from "./components/Footer";
 
-//import Dropdown from "./components/DropdownTest";
-
-function App() {
+const App = () => {
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => {
     setIsOpen(!isOpen);
@@ -33,7 +31,7 @@ function App() {
 
   return (
     <div className="max-w-screen-2xl m-0 m-auto">
-      <div className="bg-gray-200 ">
+      <div className="bg-black ">
         <Router>
           <Navigation />
           <Dropdown isOpen={isOpen} toggle={toggle} />
@@ -49,6 +47,6 @@ function App() {
       </div>
     </div>
   );
-}
+};
 
 export default App;

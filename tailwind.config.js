@@ -3,6 +3,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      backgroundImage: {
+        "header-mobile": "url('images/bgMobileBlue.png')",
+      },
       fontFamily: {
         Atma: ["Atma", "cursive"],
         SignikaNegative: ['"Signika Negative"', "sans-serif"],
