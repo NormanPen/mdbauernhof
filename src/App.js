@@ -4,6 +4,10 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Navigation from "./components/Navigation";
 import Dropdown from "./components/Dropdown";
 import Home from "./sites/Home";
+import About from "./sites/About";
+import Program from "./sites/Program";
+import Animals from "./sites/Animals";
+import Contact from "./sites/Contact";
 import Footer from "./components/Footer";
 
 //import Dropdown from "./components/DropdownTest";
@@ -34,7 +38,11 @@ function App() {
           <Navigation />
           <Dropdown isOpen={isOpen} toggle={toggle} />
           <Switch>
-            <Home />
+            <Home path="/" exact component={Home} />
+            <About path="/ueberuns" />
+            <Program path="/programm" />
+            <Animals path="/tiere" />
+            <Contact patch="/kontakt" />
           </Switch>
           <Footer />
         </Router>
