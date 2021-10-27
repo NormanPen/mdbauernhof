@@ -1,6 +1,8 @@
+import ContactFooter from "../../components/ContactFooter";
+
 const Home = () => {
   return (
-    <div className="pt-20">
+    <div className="pt-24">
       <div className="relative h-48 bg-green-300">
         <div className="absolute top-14 left-6 bg-red-300">
           <h1>box1</h1>
@@ -24,6 +26,7 @@ const Home = () => {
           <p>asdk kjhash kjhjkashjh jklajsfjij jiljsdifj </p>
         </div>
       </div>
+      <ContactFooter />
     </div>
   );
 };

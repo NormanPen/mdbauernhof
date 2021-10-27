@@ -2,12 +2,10 @@ import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import Navigation from "./components/Navigation";
-//(import Dropdown from "./components/Dropdown";
+import Dropdown from "./components/Dropdown";
 import Home from "./sites/Home";
-
-import "./App.css";
 import Footer from "./components/Footer";
-import DropdownTest from "./components/DropdownTest";
+
 //import Dropdown from "./components/DropdownTest";
 
 function App() {
@@ -30,11 +28,11 @@ function App() {
   });
 
   return (
-    <div className="App">
-      <div className="bg-gray-200 relative text-center	">
+    <div className="max-w-screen-2xl m-0 m-auto">
+      <div className="bg-gray-200 ">
         <Router>
           <Navigation />
-          <DropdownTest isOpen={isOpen} toggle={toggle} />
+          <Dropdown isOpen={isOpen} toggle={toggle} />
           <Switch>
             <Home />
           </Switch>

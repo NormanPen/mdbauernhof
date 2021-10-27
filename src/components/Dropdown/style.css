@@ -2,22 +2,36 @@
     height: 3px;
     background: #17417C;
     margin-bottom: 7px;
-  
+
     transition: all 0.4s ease; /* important for animation */
-  }
-  
-  .burger-item {
+}
+
+.burger-item {
     width: 34px;
     cursor: pointer;
-  }
-  
-  .burger-item.active .burger-line:last-child {
+}
+
+.burger-item.active .burger-line:last-child {
     opacity: 0;
-  }
-  .burger-item.active .burger-line:first-child {
+}
+.burger-item.active .burger-line:first-child {
     transform: rotate(45deg) translate(7px, 7px);
-  }
-  .burger-item.active .burger-line:nth-child(2) {
+}
+.burger-item.active .burger-line:nth-child(2) {
     transform: rotate(-45deg);
-  }
-  
+}
+
+.social-media-icon {
+    width: 54px;
+    height: 54px;
+}
+
+.social-media-icon-facebook {
+    background-image: url("../../images/facebooklogo.svg");
+    width: 54px;
+    height: 54px;
+}
+
+.social-media-icon-instagram {
+    background-image: url("../../images/instagrammlogo.svg");
+}
