@@ -7,6 +7,7 @@ import Home from "./sites/Home";
 
 import "./App.css";
 import Footer from "./components/Footer";
+import DropdownTest from "./components/DropdownTest";
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -29,10 +30,10 @@ function App() {
 
   return (
     <div className="App">
-      <div className="bg-gray-200 relative">
+      <div className="bg-gray-200 relative text-center	">
         <Router>
           <Navigation />
-          <Dropdown isOpen={isOpen} toggle={toggle} />
+          <DropdownTest />
           <Switch>
             <Home />
           </Switch>

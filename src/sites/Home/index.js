@@ -1,6 +1,6 @@
 const Home = () => {
   return (
-    <div>
+    <div className="pt-20">
       <div className="relative h-48 bg-green-300">
         <div className="absolute top-14 left-6 bg-red-300">
           <h1>box1</h1>

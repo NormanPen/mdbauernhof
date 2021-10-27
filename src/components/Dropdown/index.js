@@ -42,7 +42,7 @@ const menuItems = [
       <div className={
       isOpen 
        ? ""
-       : "absolute z-50 w-screen bg-transparent"} >
+       : "absolute z-50 w-screen "} >
         <div className="flex justify-between lg:hidden">
           <div className="flex pl-5">
             <img src={Logo} alt="Logo" className="pt-3"/>
@@ -69,7 +69,7 @@ const menuItems = [
         <div
           className={
             isOpen
-              ? "flex justify-center bg-white "
+              ? "flex justify-center bg-white overflow-y-scroll overflow-x-hidden"
               : "hidden"
           }
           onClick={toggle}
