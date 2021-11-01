@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch } from "react-router-dom";
 
 import Navigation from "./components/Navigation";
 import Dropdown from "./components/Dropdown";
@@ -30,8 +30,8 @@ const App = () => {
   });
 
   return (
-    <div className="max-w-screen-2xl m-0 m-auto">
-      <div className="bg-black ">
+    <div className="m-0 m-auto max-w-screen-2xl">
+      <div className="">
         <Router>
           <Navigation />
           <Dropdown isOpen={isOpen} toggle={toggle} />

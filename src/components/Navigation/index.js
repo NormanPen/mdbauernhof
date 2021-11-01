@@ -37,7 +37,7 @@ const menuItems = [
 const Navigation = () => {
   return (
     <>
-      <div className="absolute z-50 bg-red-300 max-w-screen-2xl w-full">
+      <div className="absolute z-50 max-w-screen-2xl w-full ">
         <div className=" pt-5  justify-between hidden  lg:flex">
           <div className="flex pl-5">
             <img src={Logo} alt="Logo" />

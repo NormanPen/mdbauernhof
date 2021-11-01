@@ -39,7 +39,7 @@ const menuItems = [
 
 const Dropdown = ({ isOpen, toggle }) => {
   return (
-    <div className="">
+    <div className="z-50 h-20 ">
       <div
         className={
           isOpen
@@ -47,7 +47,7 @@ const Dropdown = ({ isOpen, toggle }) => {
             : ""
         }
       >
-        <div className="flex justify-between  lg:hidden">
+        <div className="flex justify-between lg:hidden">
           <div className="flex pl-5">
             <img src={Logo} alt="Logo" className="pt-3" />
             <h1 className="pt-5 pl-3 text-base font-medium font-Atma text-web-blue">
@@ -55,7 +55,13 @@ const Dropdown = ({ isOpen, toggle }) => {
             </h1>
           </div>
 
-          <div className={isOpen ? "fixed top-0 right-0  " : ""}>
+          <div
+            className={
+              isOpen
+                ? "fixed top-0 right-0 z-50 "
+                : "relative top-0 right-0 z-50 "
+            }
+          >
             <div className="grid pt-5 lg:hidden" onClick={toggle}>
               <div className="grid justify-center w-20">
                 <div className={`burger-item ${isOpen ? "active" : ""}`}>
@@ -114,10 +120,6 @@ const Dropdown = ({ isOpen, toggle }) => {
             <div className="social-media-icon social-media-icon-instagram"></div>
           </a>
         </div>
-        <p className="pt-52">asdasd</p>
-        <p className="pt-52">asdasd</p> <p className="pt-52">asdasd</p>
-        <p className="pt-52">asdasd</p>
-        <p className="pt-52">asdasd</p>
       </div>
     </div>
   );

@@ -1,15 +1,21 @@
 import Header from "../../components/Header";
+import Flag from "../../components/Flag";
+import TeaserMain from "../../components/TeaserMain";
 import ContactFooter from "../../components/ContactFooter";
 
 import bgMobileBlue from "../../images/bgMobileBlue.png";
+import bgDeskBlue2 from "../../images/bgDeskBlue2.svg";
 import bauernhof from "../../images/bauernhof.png";
+
 const Home = () => {
   return (
-    <div className="pt-24">
+    <div className="">
       <Header
         heading="Herzlich Willkommen auf unserem Hof"
-        bgImgSrc={bgMobileBlue}
-        bgImgAlt="background Image"
+        mobileBgImgSrc={bgMobileBlue}
+        mobileBgImgAlt="background Image"
+        desktopBgImgSrc={bgDeskBlue2}
+        desktopBgImgAlt="background Image"
         imgSrc={bauernhof}
         imgAlt="Bauernhof"
         btnPath="test"
@@ -17,30 +23,15 @@ const Home = () => {
       >
         Entdecken Sie den Erlebniswelt Bauernhof der Familie Döpper.
       </Header>
+      <Flag />
+      <TeaserMain heading="Willkommen">
+        Erlebniswelt Bauernhof ist gegründet worden um: den Kindern direkt vor
+        Ort die Natur nahezubringen, um Ihnen ein Gefühl für die Schönheit der
+        "Schöpfung" zu vermitteln und die Welt auch noch für nachkommende
+        Generationen in diesem Umfang zu erhalten.
+      </TeaserMain>
+      <div className="relative h-48 bg-white "></div>
 
-      <div className="relative h-48 bg-green-300">
-        <div className="absolute top-14 left-6 bg-red-300">
-          <h1>box1</h1>
-          <p>asdk kjhash kjhjkashjh jklajsfjij jiljsdifj </p>
-        </div>
-
-        <div className="absolute top-0 left-6 bg-blue-300">
-          <h1>box2</h1>
-          <p>asdk kjhash kjhjkashjh jklajsfjij jiljsdifj </p>‚
-        </div>
-      </div>
-
-      <div className="relative h-48 bg-blue-800">
-        <div className="absolute top-14 left-6 bg-red-300">
-          <h1>box1</h1>
-          <p>asdk kjhash kjhjkashjh jklajsfjij jiljsdifj </p>
-        </div>
-
-        <div className="absolute top-0 left-6 bg-blue-300">
-          <h1>box2</h1>
-          <p>asdk kjhash kjhjkashjh jklajsfjij jiljsdifj </p>
-        </div>
-      </div>
       <ContactFooter />
     </div>
   );

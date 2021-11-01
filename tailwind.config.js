@@ -3,6 +3,13 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      height: {
+        98: "35rem",
+        100: "40rem",
+      },
+      spacing: {
+        160: "44.25rem",
+      },
       backgroundImage: {
         "header-mobile": "url('images/bgMobileBlue.png')",
       },
