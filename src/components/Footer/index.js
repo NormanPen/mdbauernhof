@@ -6,10 +6,10 @@ import logoDasBergische from "../../images/logoDasBergische.png";
 
 const Footer = () => {
   return (
-    <footer className=" bg-web-blue-light">
-      <div className="m-0 m-auto max-w-screen-2xl grid-cols-3 bg-web-blue-light pl-14 font-Atma md:grid md:pr-28 lg:pr-40 xl:pr-0 2xl:pr-0">
+    <footer className="bg-web-blue-light">
+      <div className="grid-cols-3 pl-14 m-0 m-auto max-w-screen-2xl bg-web-blue-light font-Atma md:grid md:pr-28 lg:pr-40 xl:pr-0 2xl:pr-0">
         <div>
-          <h3 className="text-3xl pt-14">Erleben</h3>
+          <h3 className="pt-14 text-3xl">Erleben</h3>
           <ul className="text-2xl leading-10 text-white">
             <li className="pt-4">
               <Link to="#">Über Uns</Link>
@@ -24,7 +24,7 @@ const Footer = () => {
         </div>
 
         <div className="">
-          <h3 className="text-3xl pt-11">Kontakt</h3>
+          <h3 className="pt-11 text-3xl">Kontakt</h3>
           <ul className="text-2xl leading-10 text-white">
             <li className="pt-4">
               <Link to="#">Kontakt</Link>
@@ -58,10 +58,10 @@ const Footer = () => {
         </div>
 
         <div className="w-64 h-80 lg:w-96">
-          <h3 className="text-3xl pt-11">Unsere Partner</h3>
+          <h3 className="pt-11 text-3xl">Unsere Partner</h3>
           <div className="pt-7">
-            <ul className="flex flex-wrap ">
-              <li className="pb-4 pr-4">
+            <ul className="flex flex-wrap">
+              <li className="pr-4 pb-4">
                 <Link to="#">
                   <img src={logoLandfrauen} alt="logobag" />
                 </Link>

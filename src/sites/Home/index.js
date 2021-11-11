@@ -1,6 +1,7 @@
 import Header from "../../components/Header";
 import Flag from "../../components/Flag";
 import TeaserMain from "../../components/TeaserMain";
+import { TeaserSec } from "../../components/TeaserSec";
 
 import bgMobileBlue from "../../images/bgMobileBlue.png";
 import bgDeskBlue from "../../images/bgDeskBlue.svg";
@@ -29,7 +30,8 @@ const Home = () => {
         "Schöpfung" zu vermitteln und die Welt auch noch für nachkommende
         Generationen in diesem Umfang zu erhalten.
       </TeaserMain>
-      <div className="relative h-48 bg-white "></div>
+      <TeaserSec></TeaserSec>
+      <div className="relative h-48 bg-white"></div>
     </div>
   );
 };
