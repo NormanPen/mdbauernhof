@@ -3,6 +3,12 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      screens: {
+        "3xl": { max: "1800px" },
+      },
+      maxWidth: {
+        "screen-3xl": "1623px",
+      },
       height: {
         98: "35rem",
         100: "40rem",

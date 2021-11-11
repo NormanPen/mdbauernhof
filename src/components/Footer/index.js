@@ -6,8 +6,8 @@ import logoDasBergische from "../../images/logoDasBergische.png";
 
 const Footer = () => {
   return (
-    <footer>
-      <div className="grid-cols-3 bg-web-blue-light pl-14 font-Atma md:grid md:pr-28 lg:pr-40 xl:pr-0 2xl:pr-0">
+    <footer className=" bg-web-blue-light">
+      <div className="m-0 m-auto max-w-screen-2xl grid-cols-3 bg-web-blue-light pl-14 font-Atma md:grid md:pr-28 lg:pr-40 xl:pr-0 2xl:pr-0">
         <div>
           <h3 className="text-3xl pt-14">Erleben</h3>
           <ul className="text-2xl leading-10 text-white">

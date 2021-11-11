@@ -9,6 +9,7 @@ import Program from "./sites/Program";
 import Animals from "./sites/Animals";
 import Contact from "./sites/Contact";
 import Footer from "./components/Footer";
+import ContactFooter from "./components/ContactFooter";
 
 const App = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -30,11 +31,13 @@ const App = () => {
   });
 
   return (
-    <div className="m-0 m-auto max-w-screen-2xl">
-      <div className="">
-        <Router>
+    <div className="">
+      <Router>
+        <div className="m-0 m-auto max-w-screen-2xl">
           <Navigation />
           <Dropdown isOpen={isOpen} toggle={toggle} />
+        </div>
+        <div className="m-0 m-auto max-w-screen-3xl">
           <Switch>
             <Home path="/" exact component={Home} />
             <About path="/ueberuns" />
@@ -42,9 +45,10 @@ const App = () => {
             <Animals path="/tiere" />
             <Contact patch="/kontakt" />
           </Switch>
-          <Footer />
-        </Router>
-      </div>
+        </div>
+        <ContactFooter />
+        <Footer />
+      </Router>
     </div>
   );
 };

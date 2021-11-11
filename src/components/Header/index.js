@@ -2,20 +2,20 @@ import ButtonScrollTo from "../Buttons/ButtonScrollTo";
 
 const Header = (props) => {
   return (
-    <div>
+    <div className="">
       <div className="">
-        <div className="relative mx-auto">
+        <div className="relative mx-auto ">
           <img
-            className="absolute right-0 hidden md:block 2xl:max-w-screen-2xl -top-24 z-20"
+            className="absolute right-0 hidden -top-24 z-10 md:block md:max-w-3xl lg:max-w-full "
             src={props.desktopBgImgSrc}
             alt={props.desktopBgImgAlt}
           />
         </div>
       </div>
 
-      <header className="relative mt-2.5 md:h-80   md:max-w-3xl  md:mx-auto lg:max-w-5xl  lg:top-20 lg:h-98  xl:h-100 xl:max-w-7xl ">
+      <header className="relative z-10 mt-2.5 md:h-80   md:max-w-3xl  md:mx-auto lg:max-w-3xl  lg:top-20 lg:h-98  xl:h-100 xl:max-w-7xl ">
         <img
-          className="absolute right-0 w-full top-30 md:hidden -z-10 md:w-96 h-80 "
+          className="absolute right-0 w-full top-30 md:hidden z-10 md:w-96 h-80 "
           src={props.mobileBgImgSrc}
           alt={props.mobilBgImgAlt}
         />
