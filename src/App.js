@@ -10,6 +10,8 @@ import Animals from "./sites/Animals";
 import Contact from "./sites/Contact";
 import Footer from "./components/Footer";
 import ContactFooter from "./components/ContactFooter";
+import Imprint from "./sites/Imprint";
+import ScrollToTop from "./helper/ScrollTotop";
 
 const App = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -33,21 +35,24 @@ const App = () => {
   return (
     <div className="">
       <Router>
-        <div className="m-0 m-auto max-w-screen-2xl">
-          <Navigation />
-          <Dropdown isOpen={isOpen} toggle={toggle} />
-        </div>
-        <div className="m-0 m-auto max-w-screen-3xl">
-          <Switch>
-            <Home path="/" exact component={Home} />
-            <About path="/ueberuns" />
-            <Program path="/programm" />
-            <Animals path="/tiere" />
-            <Contact patch="/kontakt" />
-          </Switch>
-        </div>
-        <ContactFooter />
-        <Footer />
+        <ScrollToTop>
+          <div className="m-0 m-auto max-w-screen-2xl">
+            <Navigation />
+            <Dropdown isOpen={isOpen} toggle={toggle} />
+          </div>
+          <div className="m-0 m-auto max-w-screen-3xl">
+            <Switch>
+              <Home path="/" exact component={Home} />
+              <About path="/ueberuns" />
+              <Program path="/programm" />
+              <Animals path="/tiere" />
+              <Contact path="/kontakt" />
+              <Imprint path="/impressum"></Imprint>
+            </Switch>
+          </div>
+          <ContactFooter />
+          <Footer />
+        </ScrollToTop>
       </Router>
     </div>
   );

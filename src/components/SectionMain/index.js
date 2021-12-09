@@ -2,7 +2,7 @@ import { ButtonPink } from "../Buttons/ButtonPink";
 
 export const SectionMain = (props) => {
   return (
-    <section className="max-w-screen-sm text-center">
+    <section className="max-w-md text-center  border-8 border-red-600 ">
       <div className="flex justify-center">
         <img
           src={props.imgSrc}
@@ -11,8 +11,8 @@ export const SectionMain = (props) => {
         />
       </div>
 
-      <h3 className=" pt-10 text-2xl font-medium font-Atma">{props.heading}</h3>
-      <p className=" px-6 pt-5 font-Signika-Negative">{props.children}</p>
+      <h3 className="pt-10 text-2xl font-medium font-Atma">{props.heading}</h3>
+      <p className="px-6 pt-5 font-Signika-Negative">{props.children}</p>
       <ButtonPink to={props.to}>{props.btnText}</ButtonPink>
     </section>
   );

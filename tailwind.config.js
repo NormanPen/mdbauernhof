@@ -18,6 +18,7 @@ module.exports = {
       },
       backgroundImage: {
         "header-mobile": "url('images/bgMobileBlue.png')",
+        "hero-texture": "url('images/bgBigOvalLightPing.png')",
       },
       fontFamily: {
         Atma: ["Atma", "cursive"],

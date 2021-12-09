@@ -12,13 +12,13 @@ const Footer = () => {
           <h3 className="pt-14 text-3xl">Erleben</h3>
           <ul className="text-2xl leading-10 text-white">
             <li className="pt-4">
-              <Link to="#">Über Uns</Link>
+              <Link to="/ueberuns">Über Uns</Link>
             </li>
             <li>
-              <Link to="#">Programm</Link>
+              <Link to="/programm">Programm</Link>
             </li>
             <li>
-              <Link to="#">Unsere Tiere</Link>
+              <Link to="/tiere">Unsere Tiere</Link>
             </li>
           </ul>
         </div>
@@ -27,10 +27,10 @@ const Footer = () => {
           <h3 className="pt-11 text-3xl">Kontakt</h3>
           <ul className="text-2xl leading-10 text-white">
             <li className="pt-4">
-              <Link to="#">Kontakt</Link>
+              <Link to="/kontakt">Kontakt</Link>
             </li>
             <li>
-              <Link to="#">Impressum</Link>
+              <Link to="/impressum">Impressum</Link>
             </li>
           </ul>
           <div className="flex pt-9 footer-sozial">
