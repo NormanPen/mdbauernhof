@@ -24,13 +24,16 @@ const Home = () => {
       >
         Entdecken Sie den Erlebniswelt Bauernhof der Familie Döpper.
       </Header>
+
       <Flag />
+
       <TeaserMain heading="Willkommen">
         Erlebniswelt Bauernhof ist gegründet worden um: den Kindern direkt vor
         Ort die Natur nahezubringen, um Ihnen ein Gefühl für die Schönheit der
         "Schöpfung" zu vermitteln und die Welt auch noch für nachkommende
         Generationen in diesem Umfang zu erhalten.
       </TeaserMain>
+
       <TeaserSec />
       <TeaserThird />
     </div>

@@ -1,5 +1,5 @@
 import bgcontactfooter from "../../images/bgContactFooter.png";
-import mailicon from "../../images/Mail.svg";
+import mailicon from "../../images/mail.svg";
 
 const picStyle = {
   width: "38.03px",

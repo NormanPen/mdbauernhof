@@ -31,6 +31,7 @@ module.exports = {
         "web-yellow": "#EECE42",
         "web-red": "#AB316A",
         "web-green": "#97AC6C",
+        "web-grau": "#828282",
         "web-orange": "#DD8756",
       },
     },

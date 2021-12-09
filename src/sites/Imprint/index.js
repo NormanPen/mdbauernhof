@@ -1,24 +1,10 @@
+import Adress from "../../components/Adress";
+
 const Imprint = () => {
   return (
     <div className="px-4 pt-20">
-      <adress>
-        <h1>Impressum Erlebniswelt Bauernhof</h1>
-
-        <p>
-          Geschäftsführer: Margot & Hans Döpper <br /> Zur Linde 38-41
-          <br />
-          51515 Kürten
-        </p>
-        <p>
-          Telefon: <a href="+4922078160">02207 / 91 21 60</a> <br /> Handy:{" "}
-          <a href="+49157325893">0157 / 32 58 93 12</a>
-        </p>
-        <p>
-          Email: <a href="mailto:mdbauernhofœaol.com">mdbauernhof@aol.com</a>{" "}
-          <br />
-          Internet: <a href="http://www.mdbauernhof.de">mdbauernhof.de</a>
-        </p>
-      </adress>
+      <h1>Impressum Erlebniswelt Bauernhof</h1>
+      <Adress />
 
       <h2>Haftungshinweis</h2>
       <p>
