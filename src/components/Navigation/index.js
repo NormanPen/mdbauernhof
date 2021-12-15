@@ -41,7 +41,7 @@ const Navigation = () => {
         <div className=" pt-5  justify-between hidden  lg:flex">
           <div className="flex pl-5">
             <img src={Logo} alt="Logo" />
-            <h1 className="pl-3 text-base font-medium text-web-blue">
+            <h1 className="pl-3 text-base font-medium text-web-blue font-Atma">
               Erlebniswelt <br /> Bauernhof
             </h1>
           </div>
