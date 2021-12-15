@@ -12,6 +12,8 @@ import huetchen from "../../images/huetchen.svg";
 import aepfel from "../../images/aepfel.png";
 import kindLeiter from "../../images/kindLeiter.png";
 import eselRitt from "../../images/WedaWilmaBuchner.png";
+import tisch from "../../images/tisch.png";
+import boot from "../../images/boot.png";
 
 const Program = () => {
   return (
@@ -61,6 +63,15 @@ const Program = () => {
         dabei werden sie von einem Erwachsenen geführt. Dann kann eine Runde
         über Hof gedreht werden oder über Feldwege zum Wald.
       </TeaserThird>
+
+      <CardMain
+        heading="Gemeinsam Essen + Feiern"
+        heading2="Kreativworkshop"
+        imgSrc={tisch}
+        img2Src={boot}
+        teaserText="Unser Veranstaltungsraum bietet ausreichend Platz um gemeinsam Kuchen oder Pizza zu essen und die Geschenke auszupacken und ein Geburtstagsständchen zu singen."
+        teaserText2="Kreativprogramm kann gerne auch außerhalb eines Geburtstags gebucht werden. In einer Gruppe können Holzflöße gebastelt, oder z.B. Fosterhocker oder Teelicht-Häuschen getöpfert werden."
+      />
       <PriceList></PriceList>
     </div>
   );

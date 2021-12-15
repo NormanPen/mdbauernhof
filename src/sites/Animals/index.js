@@ -8,7 +8,7 @@ import bgAnimals from "../../images/bgAnimals.png";
 import bgGreenOval from "../../images/bgDeskGreen.svg";
 import cow from "../../images/cow.png";
 import chicken from "../../images/chicken.png";
-import esel from "../../images/esel2.png";
+import esel2 from "../../images/esel2.png";
 import sheep from "../../images/sheeps.png";
 import goose from "../../images/goose.png";
 
@@ -46,7 +46,7 @@ const Animals = () => {
         img2Alt="Kühe"
         teaserText2="Unsere Bio-Kälber wachsen noch ganz ursprünglich bei ihren Müttern auf. Den ganzen Sommer über sind sie auf der Wiese und lassen sich gerne mit Brot und Möhren füttern. Unsere Rassen sind Fleckvieh, Charolai und die bayerische Milchkuh."
       />
-      <TeaserThird heading="Esel" imgSrc={esel} imgAlt="Esel">
+      <TeaserThird heading="Esel" imgSrc={esel2} imgAlt="Esel">
         Pedro, Shelty, Mona, Teresa und Samson sind unsere liebenswürdigen Esel.
         Sie mögen lange Streicheleinheiten, Putzen oder Strigeln, ihre Mähne zu
         Zöpfen flechten oder mit Federn verzieren lassen. Außerdem mögen sie
@@ -59,7 +59,7 @@ const Animals = () => {
         teaserText="Eine kleine Schafherde von ca. 5 Schafen wohnt ebenfakks auf unserem Hof. Heidschnucken, Koburger Rotfuchs ist ihre Rasse. "
         heading2="Gänse"
         img2Src={goose}
-        imgAlt="Gänse"
+        img2Alt="Gänse"
         teaserText2="Unsere “Wachhunde” die Gänse können Manchem mit ihrem Geschnatter Angst einjagen. Aber lassen sie sich nicht täuschen, ihr Charakter ist freundlich. Und im Frühjahr legen sie leckere Eier und sie freuen sich immer über eine Möhre."
       />
     </div>
