@@ -1,11 +1,18 @@
-const Adress = () => {
+const adressItems = [
+  {
+    id: "1",
+    email: "mdbaiuernhof@aol.com",
+  },
+];
+
+const Adress = (props) => {
   return (
     <div className="font-SignikaNegative text-lg w-full px-5">
       <adress>
         <h3>Email-Adresse:</h3>
 
         <a className="text-web-grau" href="mailto:mdbauernhofœaol.com">
-          mdbauernhof@aol.com
+          {adressItems.email}
         </a>
 
         <h3 className="mt-4">Telefon:</h3>

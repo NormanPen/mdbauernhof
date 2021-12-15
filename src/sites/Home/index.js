@@ -8,6 +8,10 @@ import bgMobileBlue from "../../images/bgMobileBlue.png";
 import bgDeskBlue from "../../images/bgDeskBlue.svg";
 import bauernhof from "../../images/bauernhof.png";
 
+import mamaPapa from "../../images/mama_papa.png";
+
+import donkey from "../../images/donkey.png";
+
 const Home = () => {
   return (
     <div className="">
@@ -34,8 +38,24 @@ const Home = () => {
         Generationen in diesem Umfang zu erhalten.
       </TeaserMain>
 
-      <TeaserSec />
-      <TeaserThird />
+      <TeaserSec
+        heading="asdasdasd"
+        imgSrc={mamaPapa}
+        imgAlt="asdads"
+        btnPath="asdasd"
+        btnText="asdasdasd"
+      >
+        asdasasdasd
+      </TeaserSec>
+      <TeaserThird
+        heading="asdasddkk"
+        imgSrc={donkey}
+        imgAlt="Esel"
+        btnPath="asddasd"
+        btnText="asdasdasd"
+      >
+        asdasd
+      </TeaserThird>
     </div>
   );
 };

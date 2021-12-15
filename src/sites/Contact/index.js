@@ -18,8 +18,19 @@ const Contact = () => {
         imgAlt="Mail"
       >
         Senden Sie uns gerne Ihre Anfrage. Wir freuen uns von Ihnen zu hören. 
-        Nutzen Sie das Kontaktformular oder setzen Sie sich unter 02207/912160,
-        0157/32589312 oder per E-Mail mit uns in Verbindung.
+        Nutzen Sie das Kontaktformular oder setzen Sie sich unter:{" "}
+        <a className="text-web-grau" href="tel:+4922078160">
+          02207 / 91 21 60
+        </a>
+        ,{" "}
+        <a className="text-web-grau" href="tel:+49157325893">
+          0157 / 32 58 93 12
+        </a>{" "}
+        oder per{" "}
+        <a className="text-web-grau" href="mailto:mdbauernhofœaol.com">
+          E-Mail
+        </a>
+        l mit uns in Verbindung.
       </HeaderContact>
 
       <div className="relative z-20 pt-24">
