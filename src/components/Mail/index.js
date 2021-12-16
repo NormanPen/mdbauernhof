@@ -3,7 +3,7 @@ const Mail = () => {
     <form
       className="w-full px-5 font-SignikaNegative "
       method="post"
-      action="mail/send_email.php"
+      action="send_email.php"
     >
       <fieldset className="lg:max-w-md">
         <div>
@@ -13,6 +13,7 @@ const Mail = () => {
           <input
             className="appearance-none border border-web-blue-light rounded-full px-5 h-12 focus:border-web-blue w-full bg-transparent"
             type="text"
+            name="name"
             id="name"
           />
         </div>
@@ -23,6 +24,7 @@ const Mail = () => {
           <input
             className="appearance-none border border-web-blue-light rounded-full px-5 h-12 focus:border-web-blue w-full bg-transparent"
             type="text"
+            name="email"
             id="email"
           />
         </div>
@@ -33,7 +35,8 @@ const Mail = () => {
           <input
             className="appearance-none border border-web-blue-light rounded-full px-5 h-12 focus:border-web-blue w-full bg-transparent"
             type="text"
-            id="email"
+            name="phone"
+            id="phone"
           />
         </div>
         <div>
@@ -43,11 +46,13 @@ const Mail = () => {
           >
             Nachricht
           </label>
-          <input
+          <textarea
+            name="message"
+            id="message"
+            cols="30"
+            rows="10"
             className="appearance-none border border-web-blue-light rounded-3xl px-5 h-56 focus:border-web-blue w-full bg-transparent"
-            type="text"
-            id="nachricht"
-          />
+          ></textarea>
         </div>
         <div>
           <input

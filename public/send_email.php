@@ -2,9 +2,9 @@
 //send_email.php
 $email_from = "absender@domain.de";   //Absender falls keiner angegeben wurde
 $sendermail_antwort = true;      //E-Mail Adresse des Besuchers als Absender. false= Nein ; true = Ja
-$name_von_emailfeld = "Email";   //Feld in der die Absenderadresse steht
+$name_von_emailfeld = "email";   //Feld in der die Absenderadresse steht
  
-$empfaenger = "normanpendzich@gmail.com"; //Empfänger-Adresse
+$empfaenger = "mdbauernhof@aol.de"; //Empfänger-Adresse
 $mail_cc = ""; //CC-Adresse, diese E-Mail-Adresse bekommt einer weitere Kopie
 $betreff = "Neue Kontaktanfrage"; //Betreff der Email
  

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { BrowserRouter as Router, Switch } from "react-router-dom";
+import { HashRouter, Switch, Route } from "react-router-dom";
 
 import Navigation from "./components/Navigation";
 import Dropdown from "./components/Dropdown";
@@ -35,7 +35,7 @@ const App = () => {
 
   return (
     <div className="font-SignikaNegative">
-      <Router>
+      <HashRouter>
         <ScrollToTop>
           <div className="m-0 m-auto max-w-screen-2xl">
             <Navigation />
@@ -44,18 +44,19 @@ const App = () => {
           <div className="m-0 m-auto max-w-screen-3xl">
             <Switch>
               <Home path="/" exact component={Home} />
-              <About path="/ueberuns" />
-              <Program path="/programm" />
-              <Animals path="/tiere" />
-              <Contact path="/kontakt" />
-              <Imprint path="/impressum" />
-              <MailError path="/mailfehler" />
+              <About path="/ueberuns" component={About} />
+              <Program path="/programm" component={Program} />
+              <Animals path="/tiere" component={Animals} />
+              <Contact path="/kontakt" component={Contact} />
+              <Imprint path="/impressum" component={Imprint} />
+              <MailError path="/mailfehler" component={MailError} />
+              <Route component={MailError} />
             </Switch>
           </div>
           <ContactFooter />
           <Footer />
         </ScrollToTop>
-      </Router>
+      </HashRouter>
     </div>
   );
 };
