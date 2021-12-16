@@ -8,8 +8,8 @@ $empfaenger = "mdbauernhof@aol.de"; //Empfänger-Adresse
 $mail_cc = ""; //CC-Adresse, diese E-Mail-Adresse bekommt einer weitere Kopie
 $betreff = "Neue Kontaktanfrage"; //Betreff der Email
  
-$url_ok = "http://www.mdbauernhof.de"; //Zielseite, wenn E-Mail erfolgreich versendet wurde
-$url_fehler = "http://www.mdbauernhof.de/mailfehler"; //Zielseite, wenn E-Mail nicht gesendet werden konnte
+$url_ok = "https://www.mdbauernhof.de/#"; //Zielseite, wenn E-Mail erfolgreich versendet wurde
+$url_fehler = "http://www.mdbauernhof.de/#/mailfehler"; //Zielseite, wenn E-Mail nicht gesendet werden konnte
  
  
 //Diese Felder werden nicht in der Mail stehen

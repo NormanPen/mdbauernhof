@@ -12,6 +12,7 @@ import Footer from "./components/Footer";
 import ContactFooter from "./components/ContactFooter";
 import Imprint from "./sites/Imprint";
 import MailError from "./sites/MailError";
+import NotAvailable from "./sites/NotAvailable";
 import ScrollToTop from "./helper/ScrollTotop";
 
 const App = () => {
@@ -50,7 +51,7 @@ const App = () => {
               <Contact path="/kontakt" component={Contact} />
               <Imprint path="/impressum" component={Imprint} />
               <MailError path="/mailfehler" component={MailError} />
-              <Route component={MailError} />
+              <Route component={NotAvailable} />
             </Switch>
           </div>
           <ContactFooter />
