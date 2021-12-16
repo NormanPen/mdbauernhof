@@ -1,5 +1,6 @@
 import bgcontactfooter from "../../images/bgContactFooter.png";
 import mailicon from "../../images/mail.svg";
+import ButtonDarkBlue from "../../components/Buttons/ButtonDarkBlue";
 
 const picStyle = {
   width: "38.03px",
@@ -22,9 +23,7 @@ const ContactFooter = (props) => {
           Sie möchten mehr Informationen oder eine Buchung anfragen? Dann
           kontaktieren Sie uns gerne.
         </p>
-        <button className="px-6 py-3 mt-6 text-white rounded-full bg-web-blue-dark">
-          Jetzt Kontakt aufnehmen
-        </button>
+        <ButtonDarkBlue to="/kontakt">Jetzt Kontakt aufnehmen</ButtonDarkBlue>
       </div>
     </div>
   );

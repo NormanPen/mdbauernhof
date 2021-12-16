@@ -1,6 +1,6 @@
 const CardSec = (props) => {
   return (
-    <div className="m-0 m-auto max-w-screen-2xl md:flex  ">
+    <div className="m-0 m-auto max-w-screen-2xl md:flex pb-36 ">
       <div className="m-0 m-auto md:w-160 md:flex md:justify-between">
         <div>
           <img src={props.imgSrc} alt={props.imgAlt} />

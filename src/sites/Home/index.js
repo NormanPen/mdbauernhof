@@ -9,8 +9,10 @@ import bgDeskBlue from "../../images/bgDeskBlue.svg";
 import bauernhof from "../../images/bauernhof.png";
 
 import mamaPapa from "../../images/mama_papa.png";
+import mamaKinder from "../../images/mama_kinder.png";
 
 import donkey from "../../images/donkey.png";
+import Obst from "../../images/Obst 1.png";
 
 import Data from "./Data";
 
@@ -43,14 +45,14 @@ const Home = () => {
       <TeaserSec
         heading="Margot & Hans Döpper"
         imgSrc={mamaPapa}
-        imgAlt="asdads"
-        btnPath="asdasd"
+        imgAlt="Margot und Hans"
+        btnPath="/ueberuns"
         btnText="Über Uns"
         heading2="Spielend lernen"
-        img2Src={mamaPapa}
-        img2Alt="asdads"
-        btn2Path="asdasd"
-        btn2Text="Über Uns"
+        img2Src={mamaKinder}
+        img2Alt="Margot"
+        btn2Path="/programm"
+        btn2Text="Zum Programm"
         teaserText="      Erlebniswelt Bauernhof ist gegründet worden um: den Kindern direkt vor
         Ort die Natur nahezubringen, um Ihnen ein Gefühl für die Schönheit der
         Schöpfung zu vermitteln und die Welt auch noch für nachkommende
@@ -61,8 +63,10 @@ const Home = () => {
         heading="Unsere Tiere"
         imgSrc={donkey}
         imgAlt="Esel"
-        btnPath="asddasd"
-        btnText="asdasdasd"
+        btnSrc="/tiere"
+        btnText="Tiere kennenlernen"
+        miniImgSrc={Obst}
+        miniImgAlt="Obst"
       >
         Durch die Vielzahl an Tieren ist für jeden eine Tierart dabei, die näher
         entdeckt werden will. Unsere Tiere freuen sich immer über nette Besucher

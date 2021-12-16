@@ -27,6 +27,7 @@ const About = () => {
         Bauernhof. In Kursen der Landwirtschaftskammer erwirbt sie regelmäßig
         das nötige Know-how.{" "}
       </Header>
+      <div className="h-9 willkommen pt-36" />
       <CardSec heading="der Hof damals" imgSrc={omaOpa}>
         Der Bauernhof existiert nun in der 4. Generatinon. Er wurde damals für
         den unglaublichen Preis von 9 Pferden gekauft.

@@ -1,6 +1,6 @@
 export const SmallPic = (props) => {
   return (
-    <div className="flex justify-center pt-20">
+    <div className="flex justify-center">
       <img src={props.src} alt={props.alt} />
     </div>
   );

@@ -1,7 +1,8 @@
 import Header from "../../components/Header";
 import TeaserMain from "../../components/TeaserMain";
 import CardMain from "../../components/CardMain";
-import TeaserThird from "../../components/TeaserThird";
+
+import CardFourth from "../../components/CardFourth";
 import Data from "../Home/Data";
 
 import bgAnimals from "../../images/bgAnimals.png";
@@ -11,6 +12,7 @@ import chicken from "../../images/chicken.png";
 import esel2 from "../../images/esel2.png";
 import sheep from "../../images/sheeps.png";
 import goose from "../../images/goose.png";
+import rueben from "../../images/rueben.png";
 
 const Animals = () => {
   return (
@@ -30,12 +32,15 @@ const Animals = () => {
         gerne streicheln. Unsere Tiere haben genug Zeit zur Entspannung und
         freuen sich immer über nette Besucher.
       </Header>
-      <TeaserMain heading="Willkommen">
-        Erlebniswelt Bauernhof ist gegründet worden um: den Kindern direkt vor
-        Ort die Natur nahezubringen, um Ihnen ein Gefühl für die Schönheit der
-        "Schöpfung" zu vermitteln und die Welt auch noch für nachkommende
-        Generationen in diesem Umfang zu erhalten.
-      </TeaserMain>
+      <div className="pt-32">
+        <TeaserMain heading="Willkommen">
+          Erlebniswelt Bauernhof ist gegründet worden um: den Kindern direkt vor
+          Ort die Natur nahezubringen, um Ihnen ein Gefühl für die Schönheit der
+          "Schöpfung" zu vermitteln und die Welt auch noch für nachkommende
+          Generationen in diesem Umfang zu erhalten.
+        </TeaserMain>
+      </div>
+
       <CardMain
         heading="Hühner"
         imgSrc={chicken}
@@ -46,22 +51,29 @@ const Animals = () => {
         img2Alt="Kühe"
         teaserText2="Unsere Bio-Kälber wachsen noch ganz ursprünglich bei ihren Müttern auf. Den ganzen Sommer über sind sie auf der Wiese und lassen sich gerne mit Brot und Möhren füttern. Unsere Rassen sind Fleckvieh, Charolai und die bayerische Milchkuh."
       />
-      <TeaserThird heading="Esel" imgSrc={esel2} imgAlt="Esel">
+      <CardFourth
+        heading="Esel"
+        imgSrc={esel2}
+        imgAlt="Esel"
+        miniImgSrc={rueben}
+      >
         Pedro, Shelty, Mona, Teresa und Samson sind unsere liebenswürdigen Esel.
         Sie mögen lange Streicheleinheiten, Putzen oder Strigeln, ihre Mähne zu
         Zöpfen flechten oder mit Federn verzieren lassen. Außerdem mögen sie
         Spaziergänge oder geführtes Reiten.{" "}
-      </TeaserThird>
-      <CardMain
-        heading="Schafe"
-        imgSrc={sheep}
-        imgAlt="Schafe"
-        teaserText="Eine kleine Schafherde von ca. 5 Schafen wohnt ebenfakks auf unserem Hof. Heidschnucken, Koburger Rotfuchs ist ihre Rasse. "
-        heading2="Gänse"
-        img2Src={goose}
-        img2Alt="Gänse"
-        teaserText2="Unsere “Wachhunde” die Gänse können Manchem mit ihrem Geschnatter Angst einjagen. Aber lassen sie sich nicht täuschen, ihr Charakter ist freundlich. Und im Frühjahr legen sie leckere Eier und sie freuen sich immer über eine Möhre."
-      />
+      </CardFourth>
+      <div className="pt-32">
+        <CardMain
+          heading="Schafe"
+          imgSrc={sheep}
+          imgAlt="Schafe"
+          teaserText="Eine kleine Schafherde von ca. 5 Schafen wohnt ebenfakks auf unserem Hof. Heidschnucken, Koburger Rotfuchs ist ihre Rasse. "
+          heading2="Gänse"
+          img2Src={goose}
+          img2Alt="Gänse"
+          teaserText2="Unsere “Wachhunde” die Gänse können Manchem mit ihrem Geschnatter Angst einjagen. Aber lassen sie sich nicht täuschen, ihr Charakter ist freundlich. Und im Frühjahr legen sie leckere Eier und sie freuen sich immer über eine Möhre."
+        />
+      </div>
     </div>
   );
 };

@@ -8,7 +8,6 @@ const adressItems = {
 };
 
 const Adress = (props) => {
-  const { email, tel, mobile, name, street, city } = props;
   return (
     <div className="font-SignikaNegative text-lg w-full px-5">
       <adress>

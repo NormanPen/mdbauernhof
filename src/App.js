@@ -11,6 +11,7 @@ import Contact from "./sites/Contact";
 import Footer from "./components/Footer";
 import ContactFooter from "./components/ContactFooter";
 import Imprint from "./sites/Imprint";
+import MailError from "./sites/MailError";
 import ScrollToTop from "./helper/ScrollTotop";
 
 const App = () => {
@@ -33,7 +34,7 @@ const App = () => {
   });
 
   return (
-    <div className="">
+    <div className="font-SignikaNegative">
       <Router>
         <ScrollToTop>
           <div className="m-0 m-auto max-w-screen-2xl">
@@ -47,7 +48,8 @@ const App = () => {
               <Program path="/programm" />
               <Animals path="/tiere" />
               <Contact path="/kontakt" />
-              <Imprint path="/impressum"></Imprint>
+              <Imprint path="/impressum" />
+              <MailError path="/mailfehler" />
             </Switch>
           </div>
           <ContactFooter />

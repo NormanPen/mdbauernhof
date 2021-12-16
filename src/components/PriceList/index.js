@@ -1,11 +1,11 @@
-const PriceData = {
+/*const PriceData = {
   heading: "Preisliste",
   heading2: "Kindergeburtstage",
   text1:
     "Hier finden Sie unsere gängigen Angebote für einen Kindergeburtag. Individuelle Anpassungen auf Ihre Wünsche sind in der Regel kein Problem.",
   price: ["asddas", "140€"],
 };
-
+*/
 export const PriceList = () => {
   return (
     <div>

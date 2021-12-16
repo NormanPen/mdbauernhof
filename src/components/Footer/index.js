@@ -46,9 +46,7 @@ const Footer = () => {
             </a>
 
             <a
-              href={
-                "https://www.facebook.com/Erlebniswelt-Bauernhof-401255466649319/"
-              }
+              href={"https://www.instagram.com/erlebniswelt_bauernhof/?hl=de"}
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -62,19 +60,31 @@ const Footer = () => {
           <div className="pt-7">
             <ul className="flex flex-wrap">
               <li className="pr-4 pb-4">
-                <Link to="#">
+                <a
+                  href="https://www.landfrauenservice-rheinland.de/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <img src={logoLandfrauen} alt="logobag" />
-                </Link>
+                </a>
               </li>
               <li className="pr-4">
-                <Link to="#">
+                <a
+                  href="https://www.dasbergische.de/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <img src={logoDasBergische} alt="logobag" />
-                </Link>
+                </a>
               </li>
               <li>
-                <Link to="#">
+                <a
+                  href="https://baglob.de/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <img src={logoBag} alt="logobag" />
-                </Link>
+                </a>
               </li>
             </ul>
           </div>

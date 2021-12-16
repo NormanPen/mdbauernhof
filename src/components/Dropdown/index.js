@@ -111,9 +111,7 @@ const Dropdown = ({ isOpen, toggle }) => {
           </a>
 
           <a
-            href={
-              "https://www.facebook.com/Erlebniswelt-Bauernhof-401255466649319/"
-            }
+            href={"https://www.instagram.com/erlebniswelt_bauernhof/?hl=de"}
             target="_blank"
             rel="noopener noreferrer"
           >
