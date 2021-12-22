@@ -49,7 +49,9 @@ const Animals = () => {
         heading2="Kühe"
         img2Src={cow}
         img2Alt="Kühe"
-        teaserText2="Unsere Bio-Kälber wachsen noch ganz ursprünglich bei ihren Müttern auf. Den ganzen Sommer über sind sie auf der Wiese und lassen sich gerne mit Brot und Möhren füttern. Unsere Rassen sind Fleckvieh, Charolai und die bayerische Milchkuh."
+        teaserText2="Unsere Kälber wachsen noch ganz ursprünglich bei ihren Müttern auf. Den ganzen Sommer
+über sind sie auf der Wiese und lassen sich gerne mit Brot und Möhren füttern. Unsere Rassen
+sind Fleckvieh, Charolai und die bayerische Milchkuh."
       />
       <CardFourth
         heading="Esel"
@@ -58,16 +60,17 @@ const Animals = () => {
         miniImgSrc={rueben}
       >
         Pedro, Shelty, Mona, Teresa und Samson sind unsere liebenswürdigen Esel.
-        Sie mögen lange Streicheleinheiten, Putzen oder Strigeln, ihre Mähne zu
+        Sie mögen lange Streicheleinheiten, Putzen oder Striegeln, ihre Mähne zu
         Zöpfen flechten oder mit Federn verzieren lassen. Außerdem mögen sie
-        Spaziergänge oder geführtes Reiten.{" "}
+        Spaziergänge oder geführtes Reiten.
       </CardFourth>
       <div className="pt-32">
         <CardMain
           heading="Schafe"
           imgSrc={sheep}
           imgAlt="Schafe"
-          teaserText="Eine kleine Schafherde von ca. 5 Schafen wohnt ebenfakks auf unserem Hof. Heidschnucken, Koburger Rotfuchs ist ihre Rasse. "
+          teaserText="Eine kleine Schafherde von ca. 5 Schafen wohnt ebenfalls auf unserem Hof. Heidschnucken,
+Coburger Rotfuchs ist ihre Rasse."
           heading2="Gänse"
           img2Src={goose}
           img2Alt="Gänse"

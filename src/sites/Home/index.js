@@ -53,11 +53,13 @@ const Home = () => {
         img2Alt="Margot"
         btn2Path="/programm"
         btn2Text="Zum Programm"
-        teaserText="      Erlebniswelt Bauernhof ist gegründet worden um: den Kindern direkt vor
-        Ort die Natur nahezubringen, um Ihnen ein Gefühl für die Schönheit der
-        Schöpfung zu vermitteln und die Welt auch noch für nachkommende
-        Generationen in diesem Umfang zu erhalten."
-        teaserText2="Kindergeburtstage sind das Herzstück der Erlebniswelt Bauernhof. Durch das spielerische Lernen und Erfahren, haben die Kinder einen unvergessliches Tag mit Erlebnissen die lange im Gedächtnis bleiben."
+        teaserText="Hans Döpper war bis 2012 Vollerwerbslandwirt mit 100 Tieren. Der ehemalige Vollerwerbs-
+Milchviehbetrieb wird nun als Mischbetrieb geführt. Margot Döpper gründete Erlebniswelt
+
+Bauernhof um den Kindern die Tier - und Pflanzenwelt nahezubringen."
+        teaserText2="Kindergeburtstage sind das Herzstück der Erlebniswelt Bauernhof. Durch das spielerische
+Lernen und Erfahren haben die Kinder einen unvergessliches Tag mit Erlebnissen die lange im
+Gedächtnis bleiben."
       ></TeaserSec>
       <TeaserThird
         heading="Unsere Tiere"
