@@ -1,19 +1,17 @@
 import ButtonScrollTo from "../Buttons/ButtonScrollTo";
 
-const Header = (props) => {
-  const {
-    desktopBgImgSrc,
-    desktopBgImgAlt,
-    mobileBgImgSrc,
-    mobilBgImgAlt,
-    imgSrc,
-    imgAlt,
-    heading,
-    children,
-    btnPath,
-    btnText,
-  } = props;
-
+const Header = ({
+  desktopBgImgSrc,
+  desktopBgImgAlt,
+  mobileBgImgSrc,
+  mobilBgImgAlt,
+  imgSrc,
+  imgAlt,
+  heading,
+  text,
+  scrollTo,
+  btnText,
+}) => {
   return (
     <div className="">
       <div className="">
@@ -41,9 +39,9 @@ const Header = (props) => {
         <div className="z-40 max-w-sm px-4 pt-8 md:absolute md:top-3 md:left-8 xl:top-16 xl:left-60">
           <h1 className="text-4xl font-medium font-Atma ">{heading}</h1>
           <p className="pt-5 pb-10 text-base md:w-56 lg:w-56 font-Signika-Negative">
-            {children}
+            {text}
           </p>
-          <ButtonScrollTo to={btnPath}>{btnText}</ButtonScrollTo>
+          <ButtonScrollTo to={scrollTo}>{btnText}</ButtonScrollTo>
         </div>
       </header>
     </div>

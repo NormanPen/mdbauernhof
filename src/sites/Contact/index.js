@@ -19,8 +19,8 @@ const Contact = () => {
       >
         Senden Sie uns gerne Ihre Anfrage. Wir freuen uns von Ihnen zu hören. 
         Nutzen Sie das Kontaktformular oder setzen Sie sich unter:{" "}
-        <a className="text-web-grau" href="tel:+4922078160">
-          02207 / 91 21 60
+        <a className="text-web-grau" href="tel:+4922074146">
+          02207 / 41 46
         </a>
         ,{" "}
         <a className="text-web-grau" href="tel:+49157325893">

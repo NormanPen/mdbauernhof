@@ -4,55 +4,46 @@ import TeaserMain from "../../components/TeaserMain";
 import TeaserSec from "../../components/TeaserSec";
 import TeaserThird from "../../components/TeaserThird";
 
-//import bgMobileBlue from "../../images/bgMobileBlue.png";
-import bgDeskBlue from "../../images/bgDeskBlue.svg";
-import bauernhof from "../../images/bauernhof.png";
-
 import mamaPapa from "../../images/mama_papa.png";
 import mamaKinder from "../../images/mama_kinder.png";
-
 import donkey from "../../images/donkey.png";
 import Obst from "../../images/Obst 1.png";
 
 import Data from "./Data";
 
 const Home = () => {
+  const header = Data.header;
+  const teaserMain = Data.teaserMain;
   return (
     <div className="">
       <Header
-        heading={Data.header.heading}
-        mobileBgImgSrc={Data.header.bgMobileBlue}
-        mobileBgImgAlt="background Image"
-        desktopBgImgSrc={bgDeskBlue}
-        desktopBgImgAlt="background Image"
-        imgSrc={bauernhof}
-        imgAlt="Bauernhof"
-        btnPath="willkommen"
-        btnText="Jetzt entdecken"
-      >
-        Entdecken Sie den Erlebniswelt Bauernhof der Familie Döpper.
-      </Header>
+        heading={header.heading}
+        text={header.text}
+        mobileBgImgSrc={header.bgMobileBlue}
+        mobileBgImgAlt={header.mobileBgImgAlt}
+        desktopBgImgSrc={header.desktopBgImgSrc}
+        scrollTo={header.scrollTo}
+        btnText={header.btnText}
+        imgSrc={header.imgSrc}
+        imgAlt={header.imgAlt}
+      />
 
       <Flag />
 
-      <TeaserMain heading="Willkommen">
-        Erlebniswelt Bauernhof ist gegründet worden um: den Kindern direkt vor
-        Ort die Natur nahezubringen, um Ihnen ein Gefühl für die Schönheit der
-        "Schöpfung" zu vermitteln und die Welt auch noch für nachkommende
-        Generationen in diesem Umfang zu erhalten.
-      </TeaserMain>
+      <TeaserMain heading={teaserMain.heading} text={teaserMain.text} />
 
       <TeaserSec
         heading="Margot & Hans Döpper"
         imgSrc={mamaPapa}
         imgAlt="Margot und Hans"
-        btnPath="/ueberuns"
-        btnText="Über Uns"
+        linkTo="/ueberuns"
+        linkText="Über Uns"
+        linkColor="bg-web-red"
         heading2="Spielend lernen"
         img2Src={mamaKinder}
         img2Alt="Margot"
-        btn2Path="/programm"
-        btn2Text="Zum Programm"
+        linkTo2="/programm"
+        linkText2="Zum Programm"
         teaserText="Hans Döpper war bis 2012 Vollerwerbslandwirt mit 100 Tieren. Der ehemalige Vollerwerbs-
 Milchviehbetrieb wird nun als Mischbetrieb geführt. Margot Döpper gründete Erlebniswelt
 

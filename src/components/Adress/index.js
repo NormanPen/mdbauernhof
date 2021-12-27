@@ -1,6 +1,6 @@
 const adressItems = {
   email: "mdbauernhof@aol.de",
-  tel: "02207 / 91 21 60",
+  tel: "02207 / 41 46",
   mobile: "0157 / 32 58 93 12",
   name: "Margot & Hans Döpper",
   street: "Zur Linde 38-41",
