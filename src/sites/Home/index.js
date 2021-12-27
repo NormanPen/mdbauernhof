@@ -3,6 +3,7 @@ import Flag from "../../components/Flag";
 import TeaserMain from "../../components/TeaserMain";
 import TeaserSec from "../../components/TeaserSec";
 import TeaserThird from "../../components/TeaserThird";
+import Card from "../../components/Card";
 
 import mamaPapa from "../../images/mama_papa.png";
 import mamaKinder from "../../images/mama_kinder.png";
@@ -32,26 +33,35 @@ const Home = () => {
 
       <TeaserMain heading={teaserMain.heading} text={teaserMain.text} />
 
-      <TeaserSec
-        heading="Margot & Hans Döpper"
-        imgSrc={mamaPapa}
-        imgAlt="Margot und Hans"
-        linkTo="/ueberuns"
-        linkText="Über Uns"
-        linkColor="bg-web-red"
-        heading2="Spielend lernen"
-        img2Src={mamaKinder}
-        img2Alt="Margot"
-        linkTo2="/programm"
-        linkText2="Zum Programm"
-        teaserText="Hans Döpper war bis 2012 Vollerwerbslandwirt mit 100 Tieren. Der ehemalige Vollerwerbs-
+      <TeaserSec>
+        <Card
+          on={false}
+          checkButton={true}
+          imgSrc={mamaPapa}
+          imgAlt="Margot und Hans Döpper"
+          heading="Margot und Hans"
+          linkTo="ueberuns"
+          linkText="Über Uns"
+          linkColor="bg-web-red"
+          text="Hans Döpper war bis 2012 Vollerwerbslandwirt mit 100 Tieren. Der ehemalige Vollerwerbs-
 Milchviehbetrieb wird nun als Mischbetrieb geführt. Margot Döpper gründete Erlebniswelt
 
 Bauernhof um den Kindern die Tier - und Pflanzenwelt nahezubringen."
-        teaserText2="Kindergeburtstage sind das Herzstück der Erlebniswelt Bauernhof. Durch das spielerische
-Lernen und Erfahren haben die Kinder einen unvergessliches Tag mit Erlebnissen die lange im
-Gedächtnis bleiben."
-      ></TeaserSec>
+        />
+        <Card
+          checkButton={false}
+          imgSrc={mamaPapa}
+          imgAlt="Margot und Hans Döpper"
+          heading="Margot und Hans"
+          linkTo="ueberuns"
+          linkText="Über Uns"
+          linkColor="bg-web-red"
+          text="Hans Döpper war bis 2012 Vollerwerbslandwirt mit 100 Tieren. Der ehemalige Vollerwerbs-
+Milchviehbetrieb wird nun als Mischbetrieb geführt. Margot Döpper gründete Erlebniswelt
+
+Bauernhof um den Kindern die Tier - und Pflanzenwelt nahezubringen."
+        />
+      </TeaserSec>
       <TeaserThird
         heading="Unsere Tiere"
         imgSrc={donkey}

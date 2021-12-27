@@ -20,8 +20,13 @@ const Data = {
     text: 'Erlebniswelt Bauernhof ist gegründet worden um: den Kindern direkt vor Ort die Natur nahezubringen, um Ihnen ein Gefühl für die Schönheit der "Schöpfung" zu vermitteln und die Welt auch noch für nachkommende Generationen in diesem Umfang zu erhalten.',
   },
   teaserSec: {
-    heading: "Margot & Hans Döpper",
-    text: "Hans Döpper war bis 2012 Vollerwerbslandwirt mit 100 Tieren. Der ehemalige Vollerwerbs- Milchviehbetrieb wird nun als Mischbetrieb geführt. Margot Döpper gründete Erlebniswelt Bauernhof um den Kindern die Tier - und Pflanzenwelt nahezubringen.",
+    card1: {
+      heading: "Margot & Hans Döpper",
+      text: "Hans Döpper war bis 2012 Vollerwerbslandwirt mit 100 Tieren. Der ehemalige Vollerwerbs- Milchviehbetrieb wird nun als Mischbetrieb geführt. Margot Döpper gründete Erlebniswelt Bauernhof um den Kindern die Tier - und Pflanzenwelt nahezubringen.",
+    },
+    card2: {
+      heading: "asdasda",
+    },
   },
 };
 export default Data;
