@@ -1,8 +1,8 @@
 import Header from "../../components/Header";
 import TeaserMain from "../../components/TeaserMain";
-import CardMain from "../../components/CardMain";
+import CardMain from "../../components/test/CardMain";
 
-import CardFourth from "../../components/CardFourth";
+import CardFourth from "../../components/test/CardFourth";
 import Data from "../Home/Data";
 
 import bgAnimals from "../../images/bgAnimals.png";

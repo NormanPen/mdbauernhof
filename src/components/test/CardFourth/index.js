@@ -1,4 +1,4 @@
-import { SmallPic } from "../SmallPic";
+import { SmallPic } from "../../SmallPic";
 
 const CardFourth = (props) => {
   return (

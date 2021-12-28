@@ -4,19 +4,20 @@ import TeaserMain from "../../components/TeaserMain";
 import TeaserSec from "../../components/TeaserSec";
 import TeaserThird from "../../components/TeaserThird";
 import Card from "../../components/Card";
-
-import mamaPapa from "../../images/mama_papa.png";
-import mamaKinder from "../../images/mama_kinder.png";
-import donkey from "../../images/donkey.png";
-import Obst from "../../images/Obst 1.png";
+import CardPic from "../../components/CardPic";
 
 import Data from "./Data";
 
 const Home = () => {
   const header = Data.header;
   const teaserMain = Data.teaserMain;
+  const card1 = Data.teaserSec.card1;
+  const card2 = Data.teaserSec.card2;
+  const card3 = Data.teaserThird.card3;
+  const card4 = Data.teaserThird.card4;
+
   return (
-    <div className="">
+    <>
       <Header
         heading={header.heading}
         text={header.text}
@@ -35,47 +36,39 @@ const Home = () => {
 
       <TeaserSec>
         <Card
-          on={false}
-          checkButton={true}
-          imgSrc={mamaPapa}
+          imgSrc={card1.imgSrc}
           imgAlt="Margot und Hans Döpper"
-          heading="Margot und Hans"
-          linkTo="ueberuns"
-          linkText="Über Uns"
-          linkColor="bg-web-red"
-          text="Hans Döpper war bis 2012 Vollerwerbslandwirt mit 100 Tieren. Der ehemalige Vollerwerbs-
-Milchviehbetrieb wird nun als Mischbetrieb geführt. Margot Döpper gründete Erlebniswelt
-
-Bauernhof um den Kindern die Tier - und Pflanzenwelt nahezubringen."
+          heading={card1.heading}
+          linkTo={card1.linkTo}
+          linkText={card1.linkText}
+          linkColor={card1.linkColor}
+          text={card1.text}
+          on={true}
         />
         <Card
-          checkButton={false}
-          imgSrc={mamaPapa}
+          imgSrc={card2.imgSrc}
           imgAlt="Margot und Hans Döpper"
-          heading="Margot und Hans"
-          linkTo="ueberuns"
-          linkText="Über Uns"
-          linkColor="bg-web-red"
-          text="Hans Döpper war bis 2012 Vollerwerbslandwirt mit 100 Tieren. Der ehemalige Vollerwerbs-
-Milchviehbetrieb wird nun als Mischbetrieb geführt. Margot Döpper gründete Erlebniswelt
-
-Bauernhof um den Kindern die Tier - und Pflanzenwelt nahezubringen."
+          heading={card2.heading}
+          linkTo={card2.linkTo}
+          linkText={card2.linkText}
+          linkColor={card2.linkColor}
+          text={card2.text}
+          on={true}
         />
       </TeaserSec>
-      <TeaserThird
-        heading="Unsere Tiere"
-        imgSrc={donkey}
-        imgAlt="Esel"
-        btnSrc="/tiere"
-        btnText="Tiere kennenlernen"
-        miniImgSrc={Obst}
-        miniImgAlt="Obst"
-      >
-        Durch die Vielzahl an Tieren ist für jeden eine Tierart dabei, die näher
-        entdeckt werden will. Unsere Tiere freuen sich immer über nette Besucher
-        und lieben Streicheleinheiten.
+      <TeaserThird>
+        <CardPic imgSrc={card3.imgSrc} imgAlt={card3.imgAlt} />
+        <Card
+          imgSrc={card4.imgSrc}
+          imgAlt={card4.imgAlt}
+          heading={card4.heading}
+          text={card4.text}
+          linkText={card4.linkText}
+          linkTo={card4.linkTo}
+          linkColor={card4.linkColor}
+        />
       </TeaserThird>
-    </div>
+    </>
   );
 };
 

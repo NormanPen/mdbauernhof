@@ -14,7 +14,6 @@ import Imprint from "./sites/Imprint";
 import MailError from "./sites/MailError";
 import NotAvailable from "./sites/NotAvailable";
 import ScrollToTop from "./helper/ScrollTotop";
-import Test from "./sites/Test";
 
 const App = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -43,7 +42,7 @@ const App = () => {
             <Navigation />
             <Dropdown isOpen={isOpen} toggle={toggle} />
           </div>
-          <div className="m-0 m-auto max-w-screen-3xl">
+          <main className="m-0 m-auto max-w-screen-3xl">
             <Switch>
               <Home path="/" exact component={Home} />
               <About path="/ueberuns" component={About} />
@@ -51,11 +50,10 @@ const App = () => {
               <Animals path="/tiere" component={Animals} />
               <Contact path="/kontakt" component={Contact} />
               <Imprint path="/impressum" component={Imprint} />
-              <Test path="/test" component={Test} />
               <MailError path="/mailfehler" component={MailError} />
               <Route component={NotAvailable} />
             </Switch>
-          </div>
+          </main>
 
           <Footer />
         </ScrollToTop>

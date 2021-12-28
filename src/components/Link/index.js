@@ -8,7 +8,7 @@ const LinkTo = ({ to, children, linkColor, on }) => {
   const checkLinkColor = COLORS.includes(linkColor) ? linkColor : COLORS[0];
 
   //überprüft ob der Button nicht dargestellt werden soll
-  if (on == false) {
+  if (on === false) {
     return null;
   }
   return (

@@ -1,7 +1,7 @@
 import Header from "../../components/Header";
 import { SmallPic } from "../../components/SmallPic";
 import TeaserMain from "../../components/TeaserMain";
-import CardMain from "../../components/CardMain";
+import CardMain from "../../components/test/CardMain";
 import TeaserThird from "../../components/TeaserThird";
 import { PriceList } from "../../components/PriceList";
 

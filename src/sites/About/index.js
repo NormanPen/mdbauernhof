@@ -1,42 +1,39 @@
 import Header from "../../components/Header";
-import CardSec from "../../components/CardSec";
-import CardThrd from "../../components/CardThrd";
+import TeaserThird from "../../components/TeaserThird";
+import CardPic from "../../components/CardPic";
+import CardText from "../../components/CardText";
 
-import bgAboutMobile from "../../images/bgAboutMobile.svg";
-import bgAbout from "../../images/bgAbout.svg";
-import margotUndHans from "../../images/MargotUndHans.png";
-import omaOpa from "../../images/OmaOpa.png";
-import tracktor from "../../images/Tracktor.png";
+import Data from "./Data";
 
 const About = () => {
+  const header = Data.header;
+  const card1 = Data.teaserThird1.card1;
+  const card2 = Data.teaserThird1.card2;
   return (
     <div>
       <Header
-        heading="Über uns"
-        mobileBgImgSrc={bgAboutMobile}
-        mobileBgImgAlt="background Image"
-        desktopBgImgSrc={bgAbout}
-        desktopBgImgAlt="background Image"
-        imgSrc={margotUndHans}
-        imgAlt="Bauernhof"
-        btnPath="willkommen"
-        btnText="Jetzt entdecken"
-      >
-        Margot Döpper wollte nicht nur Landwirtin sein. Heute organisiert sie,
-        unterstützt von ihrem Mann Hans Döpper, Kindergeburtstage auf dem
-        Bauernhof. In Kursen der Landwirtschaftskammer erwirbt sie regelmäßig
-        das nötige Know-how.{" "}
-      </Header>
+        heading={header.heading}
+        text={header.text}
+        mobileBgImgSrc={header.bgMobile}
+        mobileBgImgAlt={header.bgMobileAlt}
+        desktopBgImgSrc={header.bgDesktop}
+        desktopBgImgAlt={header.bgDesktopAlt}
+        scrollTo={header.scrollTo}
+        imgSrc={header.imgSrc}
+        imgAlt={header.imgAlt}
+        btnPath={header.scrollTo}
+        btnText={header.scrollToText}
+      />
       <div className="h-9 willkommen pt-36" />
-      <CardSec heading="der Hof damals" imgSrc={omaOpa}>
-        Der Bauernhof existiert nun in der 4. Generation. Er wurde damals für
-        den unglaublichen Preis von 9 Pferden gekauft.
-      </CardSec>
-      <CardThrd heading="der Hof heute" imgSrc={tracktor}>
-        Heute kümmern sich hauptsächlich Hans, Margot und Mathias Döpper um den
-        Hof und die Wiesen. Es gibt viel zu entdecken. Zum Beispiel eine
-        Vielzahl an Tieren, ein Heustall, ein Obstgarten und Insektengarten.
-      </CardThrd>
+
+      <TeaserThird>
+        <CardPic imgSrc={card1.imgSrc} imgAlt={card1.imgAlt} />
+        <CardText heading={card2.heading} text={card2.text} />
+      </TeaserThird>
+      <TeaserThird>
+        <CardPic imgSrc={card1.imgSrc} imgAlt={card1.imgAlt} />
+        <CardText heading={card2.heading} text={card2.text} />
+      </TeaserThird>
     </div>
   );
 };

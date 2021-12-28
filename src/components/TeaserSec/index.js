@@ -1,7 +1,3 @@
-import { ButtonPink } from "../Buttons/ButtonPink";
-import LinkTo from "../Link";
-import Card from "../Card";
-
 const TeaserSec = (props) => {
   return (
     <div className="m-0 m-auto max-w-screen-2xl md:flex bg-hero-texture md:bg-cover ">
