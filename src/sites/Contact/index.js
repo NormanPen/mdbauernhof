@@ -22,8 +22,8 @@ const Contact = () => {
         <a className="text-web-grau" href="tel:+4922074146">
           02207 / 41 46
         </a>
-        ,{" "}
-        <a className="text-web-grau" href="tel:+49157325893">
+        , <br />
+        <a className="text-web-grau" href="tel:+4915732589312">
           0157 / 32 58 93 12
         </a>{" "}
         oder per{" "}
