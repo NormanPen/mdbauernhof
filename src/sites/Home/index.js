@@ -37,7 +37,7 @@ const Home = () => {
       <TeaserSec>
         <Card
           imgSrc={card1.imgSrc}
-          imgAlt="Margot und Hans Döpper"
+          imgAlt={card1.imgAlt}
           heading={card1.heading}
           linkTo={card1.linkTo}
           linkText={card1.linkText}
@@ -47,7 +47,7 @@ const Home = () => {
         />
         <Card
           imgSrc={card2.imgSrc}
-          imgAlt="Margot und Hans Döpper"
+          imgAlt={card2.imgAlt}
           heading={card2.heading}
           linkTo={card2.linkTo}
           linkText={card2.linkText}

@@ -1,82 +1,101 @@
 import Header from "../../components/Header";
 import TeaserMain from "../../components/TeaserMain";
-import CardMain from "../../components/test/CardMain";
+import TeaserSec from "../../components/TeaserSec";
+import TeaserThird from "../../components/TeaserThird";
+import Card from "../../components/Card";
+import CardPic from "../../components/CardPic";
 
-import CardFourth from "../../components/test/CardFourth";
-import Data from "../Home/Data";
-
-import bgAnimals from "../../images/bgAnimals.png";
-import bgGreenOval from "../../images/bgDeskGreen.svg";
-import cow from "../../images/cow.png";
-import chicken from "../../images/chicken.png";
-import esel2 from "../../images/esel2.png";
-import sheep from "../../images/sheeps.png";
-import goose from "../../images/goose.png";
-import rueben from "../../images/rueben.png";
+import Data from "./Data";
 
 const Animals = () => {
+  const header = Data.header;
+  const teaserMain = Data.teaserMain;
+  const card1 = Data.teaserSec.card1;
+  const card2 = Data.teaserSec.card2;
+  const card3 = Data.teaserThird.card3;
+  const card4 = Data.teaserThird.card4;
+  const card5 = Data.card5;
+  const card6 = Data.card6;
+
   return (
     <div>
       <Header
-        heading="Unsere Tiere"
-        mobileBgImgSrc={Data.header.bgMobileBlue}
-        mobileBgImgAlt="background Image"
-        desktopBgImgSrc={bgGreenOval}
-        desktopBgImgAlt="background Image"
-        imgSrc={bgAnimals}
-        imgAlt="Bauernhof"
-        btnPath="willkommen"
-        btnText="Jetzt entdecken"
-      >
-        Unsere Tiere lieben Kinder. Mit ihren freundlichen Gemüt lassen sie sich
-        gerne streicheln. Unsere Tiere haben genug Zeit zur Entspannung und
-        freuen sich immer über nette Besucher.
-      </Header>
+        heading={header.heading}
+        text={header.text}
+        mobileBgImgSrc={header.bgMobile}
+        mobileBgImgAlt={header.bgMobileAlt}
+        desktopBgImgSrc={header.bgDesktop}
+        desktopBgImgAlt={header.bgDesktopAlt}
+        scrollTo={header.scrollTo}
+        imgSrc={header.imgSrc}
+        imgAlt={header.imgAlt}
+        btnPath={header.scrollTo}
+        btnText={header.scrollToText}
+      />
+
       <div className="pt-32">
-        <TeaserMain heading="Willkommen">
-          Erlebniswelt Bauernhof ist gegründet worden um: den Kindern direkt vor
-          Ort die Natur nahezubringen, um Ihnen ein Gefühl für die Schönheit der
-          "Schöpfung" zu vermitteln und die Welt auch noch für nachkommende
-          Generationen in diesem Umfang zu erhalten.
-        </TeaserMain>
+        <TeaserMain
+          heading={teaserMain.heading}
+          text={teaserMain.text}
+        ></TeaserMain>
       </div>
 
-      <CardMain
-        heading="Hühner"
-        imgSrc={chicken}
-        imgAlt="Hühnchen"
-        teaserText="Gemischte Hühnerrassen, die braune, weiße und grüne Eier legen, laufen bei uns frei auf dem Hof herum. Die Seidenhühner, die ganz besonders schön anzusehen sind, geben kleine Eier. Eier können bei uns auf dem Hof gekauft werden."
-        heading2="Kühe"
-        img2Src={cow}
-        img2Alt="Kühe"
-        teaserText2="Unsere Kälber wachsen noch ganz ursprünglich bei ihren Müttern auf. Den ganzen Sommer
-über sind sie auf der Wiese und lassen sich gerne mit Brot und Möhren füttern. Unsere Rassen
-sind Fleckvieh, Charolai und die bayerische Milchkuh."
-      />
-      <CardFourth
-        heading="Esel"
-        imgSrc={esel2}
-        imgAlt="Esel"
-        miniImgSrc={rueben}
-      >
-        Pedro, Shelty, Mona, Teresa und Samson sind unsere liebenswürdigen Esel.
-        Sie mögen lange Streicheleinheiten, Putzen oder Striegeln, ihre Mähne zu
-        Zöpfen flechten oder mit Federn verzieren lassen. Außerdem mögen sie
-        Spaziergänge oder geführtes Reiten.
-      </CardFourth>
-      <div className="pt-32">
-        <CardMain
-          heading="Schafe"
-          imgSrc={sheep}
-          imgAlt="Schafe"
-          teaserText="Eine kleine Schafherde von ca. 5 Schafen wohnt ebenfalls auf unserem Hof. Heidschnucken,
-Coburger Rotfuchs ist ihre Rasse."
-          heading2="Gänse"
-          img2Src={goose}
-          img2Alt="Gänse"
-          teaserText2="Unsere “Wachhunde” die Gänse können Manchem mit ihrem Geschnatter Angst einjagen. Aber lassen sie sich nicht täuschen, ihr Charakter ist freundlich. Und im Frühjahr legen sie leckere Eier und sie freuen sich immer über eine Möhre."
+      <TeaserSec>
+        <Card
+          imgSrc={card1.imgSrc}
+          imgAlt={card1.imgAlt}
+          heading={card1.heading}
+          linkTo={card1.linkTo}
+          linkText={card1.linkText}
+          linkColor={card1.linkColor}
+          text={card1.text}
+          on={false}
         />
-      </div>
+        <Card
+          imgSrc={card2.imgSrc}
+          imgAlt={card2.imgAlt}
+          heading={card2.heading}
+          linkTo={card2.linkTo}
+          linkText={card2.linkText}
+          linkColor={card2.linkColor}
+          text={card2.text}
+          on={false}
+        />
+      </TeaserSec>
+
+      <TeaserThird>
+        <CardPic imgSrc={card3.imgSrc} imgAlt={card3.imgAlt} />
+        <Card
+          imgSrc={card4.imgSrc}
+          imgAlt={card4.imgAlt}
+          heading={card4.heading}
+          text={card4.text}
+          on={false}
+        />
+      </TeaserThird>
+
+      <TeaserSec>
+        <Card
+          imgSrc={card5.imgSrc}
+          imgAlt={card6.imgAlt}
+          heading={card5.heading}
+          linkTo={card5.linkTo}
+          linkText={card5.linkText}
+          linkColor={card5.linkColor}
+          text={card5.text}
+          on={false}
+        />
+        <Card
+          imgSrc={card6.imgSrc}
+          imgAlt={card6.imgAlt}
+          heading={card6.heading}
+          linkTo={card6.linkTo}
+          linkText={card6.linkText}
+          linkColor={card6.linkColor}
+          text={card6.text}
+          on={false}
+        />
+      </TeaserSec>
     </div>
   );
 };

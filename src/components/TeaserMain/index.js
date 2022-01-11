@@ -3,7 +3,9 @@ const TeaserMain = ({ imgsrc, imgalt, heading, text }) => {
     <div className="m-0 m-auto max-w-screen-2xl pb-16">
       <div className="h-9 willkommen" />
       <article className=" text-center px-9 pt-7 mx-auto md:w-160 ">
-        <img src={imgsrc} alt={imgalt} />
+        <div className="flex justify-center">
+          <img src={imgsrc} alt={imgalt} />
+        </div>
         <h2 className=" text-3xl font-medium font-Atma">{heading}</h2>
         <p className="pt-6 text-base font-Signika-Negative">{text}</p>
       </article>
