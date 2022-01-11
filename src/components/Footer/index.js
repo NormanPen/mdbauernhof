@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom";
+import LinkTo from "../Buttons/LinkTo";
 
 import bgcontactfooter from "../../images/bgContactFooter.png";
 import mailicon from "../../images/mail.svg";
-import ButtonDarkBlue from "../../components/Buttons/ButtonDarkBlue";
+
 import logoBag from "../../images/logoBag.png";
 import logoLandfrauen from "../../images/logoLandfrauen.png";
 import logoDasBergische from "../../images/logoDasBergische.png";
@@ -24,7 +25,9 @@ const Footer = () => {
             Sie möchten mehr Informationen oder eine Buchung anfragen? Dann
             kontaktieren Sie uns gerne.
           </p>
-          <ButtonDarkBlue to="/kontakt">Jetzt Kontakt aufnehmen</ButtonDarkBlue>
+          <LinkTo on="true" to="/kontakt">
+            Jetzt Kontakt aufnehmen
+          </LinkTo>
         </div>
       </div>
       <div className="bg-web-blue-light">

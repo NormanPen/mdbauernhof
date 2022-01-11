@@ -1,16 +1,8 @@
 import Header from "../../components/Header";
-import TeaserMain from "../../components/TeaserMain";
+import Teaser from "../../components/Teaser";
 import TeaserSec from "../../components/TeaserSec";
 import Card from "../../components/Card";
-import CardMain from "../../components/test/CardMain";
-import TeaserThird from "../../components/TeaserThird";
 import { PriceList } from "../../components/PriceList";
-
-import aepfel from "../../images/aepfel.png";
-import kindLeiter from "../../images/kindLeiter.png";
-import eselRitt from "../../images/WedaWilmaBuchner.png";
-import tisch from "../../images/tisch.png";
-import boot from "../../images/boot.png";
 
 import { Data } from "./data";
 
@@ -34,7 +26,7 @@ const Program = () => {
         btnText={header.scrollToText}
       ></Header>
 
-      <TeaserMain
+      <Teaser
         heading={teaserMain.heading}
         text={teaserMain.text}
         imgsrc={teaserMain.imgSrc}
@@ -43,7 +35,7 @@ const Program = () => {
       <TeaserSec>
         <Card
           imgSrc={card1.imgSrc}
-          imgAlt="Margot und Hans Döpper"
+          imgAlt={card1.imgAlt}
           heading={card1.heading}
           linkTo={card1.linkTo}
           linkText={card1.linkText}
@@ -53,7 +45,7 @@ const Program = () => {
         />
         <Card
           imgSrc={card2.imgSrc}
-          imgAlt="Margot und Hans Döpper"
+          imgAlt={card2.imgAlt}
           heading={card2.heading}
           linkTo={card2.linkTo}
           linkText={card2.linkText}

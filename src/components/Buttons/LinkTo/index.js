@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const COLORS = ["bg-web-blue-dark", "bg-web-green", "bg-web-red"];
 
 const LinkTo = ({ to, children, linkColor, on }) => {
-  //überprüfen ob es eine Farbe für den Link gibt, falls nicht Standard setzen
+  //überprüfen ob es eine Farbe für den LinkTo gibt, falls nicht Standard setzen
   const checkLinkColor = COLORS.includes(linkColor) ? linkColor : COLORS[0];
 
   //überprüft ob der Button nicht dargestellt werden soll

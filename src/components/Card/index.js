@@ -1,4 +1,4 @@
-import LinkTo from "../Link";
+import LinkTo from "../Buttons/LinkTo";
 
 const Card = ({
   imgSrc,

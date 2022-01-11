@@ -1,5 +1,5 @@
 import Header from "../../components/Header";
-import TeaserMain from "../../components/TeaserMain";
+import Teaser from "../../components/Teaser";
 import TeaserSec from "../../components/TeaserSec";
 import TeaserThird from "../../components/TeaserThird";
 import Card from "../../components/Card";
@@ -34,10 +34,7 @@ const Animals = () => {
       />
 
       <div className="pt-32">
-        <TeaserMain
-          heading={teaserMain.heading}
-          text={teaserMain.text}
-        ></TeaserMain>
+        <Teaser heading={teaserMain.heading} text={teaserMain.text} />
       </div>
 
       <TeaserSec>

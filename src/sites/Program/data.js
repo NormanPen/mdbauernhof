@@ -1,13 +1,10 @@
 import bgAboutMobile from "../../images/bgAboutMobile.svg";
 import bgDesktop from "../../images/bgProgramm.svg";
 import margotProgramm from "../../images/MargotProgramm.png";
-
 import huetchen from "../../images/huetchen.svg";
-import mamaPapa from "../../images/mama_papa.png";
-import mamaKinder from "../../images/mama_kinder.png";
-
 import aepfel from "../../images/aepfel.png";
 import kindLeiter from "../../images/kindLeiter.png";
+
 export const Data = {
   header: {
     heading: "Unser Programm",
@@ -32,7 +29,7 @@ export const Data = {
       heading: "Heustalltoben",
       text: "Im Heustall können sich die Kinder richtig austoben und ihre Energie loswerden. Fangen, im Heu verstecken, Heuburgen bauen oder auf der Schaukel die Seele baumeln lassen macht riesigen Spaß.",
       imgSrc: kindLeiter,
-      imgAlt: "Äpfel",
+      imgAlt: "Kind auf Strickleiter",
     },
     card2: {
       heading: "Bauerngarten-Ernten",

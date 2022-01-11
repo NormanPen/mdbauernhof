@@ -1,6 +1,6 @@
 import Header from "../../components/Header";
 import Flag from "../../components/Flag";
-import TeaserMain from "../../components/TeaserMain";
+import Teaser from "../../components/Teaser";
 import TeaserSec from "../../components/TeaserSec";
 import TeaserThird from "../../components/TeaserThird";
 import Card from "../../components/Card";
@@ -32,7 +32,7 @@ const Home = () => {
 
       <Flag />
 
-      <TeaserMain heading={teaserMain.heading} text={teaserMain.text} />
+      <Teaser heading={teaserMain.heading} text={teaserMain.text} />
 
       <TeaserSec>
         <Card
