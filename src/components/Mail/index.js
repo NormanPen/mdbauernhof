@@ -1,4 +1,18 @@
+import React, { useState } from "react";
+import validator from "validator";
+
 const Mail = () => {
+  const [emailError, setEmailError] = useState("");
+  const validateEmail = (e) => {
+    let email = e.target.value;
+
+    if (validator.isEmail(email)) {
+      setEmailError(" ");
+    } else {
+      setEmailError("Bitte geben Sie eine gültige Email-Adresse ein");
+    }
+  };
+
   return (
     <form
       className="w-full px-5 font-SignikaNegative "
@@ -19,14 +33,18 @@ const Mail = () => {
         </div>
         <div>
           <label className="block font-bold text-lg pb-2 mt-8" htmlFor="mail">
-            Email-Adresse
+            Email-Adresse{" "}
           </label>
           <input
             className="appearance-none border border-web-blue-light rounded-full px-5 h-12 focus:border-web-blue w-full bg-transparent"
             type="text"
             name="email"
-            id="email"
+            id="userEmail"
+            onChange={(e) => validateEmail(e)}
           />
+          <span className="font-bold text-red-500 pt-3 inline-block">
+            {emailError}
+          </span>
         </div>
         <div>
           <label className="block font-bold text-lg pb-2 mt-8" htmlFor="phone">
@@ -52,7 +70,7 @@ const Mail = () => {
             cols="30"
             rows="10"
             className="appearance-none border border-web-blue-light rounded-3xl px-5 h-56 focus:border-web-blue w-full bg-transparent"
-          ></textarea>
+          />
         </div>
         <div>
           <input

@@ -15,7 +15,7 @@ const Home = () => {
   const card2 = Data.teaserSec.card2;
   const card3 = Data.teaserThird.card3;
   const card4 = Data.teaserThird.card4;
-
+  //const { header, teaserMain } = Data.target;
   return (
     <>
       <Header

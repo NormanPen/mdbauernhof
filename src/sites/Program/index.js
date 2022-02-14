@@ -55,7 +55,7 @@ const Program = () => {
         />
       </TeaserSec>
 
-      <div className="pt-24 md:w-160 m-0 m-auto">
+      <div className="pt-24 md:w-160 m-0 m-auto px-9">
         <PriceList />
       </div>
     </div>
