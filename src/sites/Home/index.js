@@ -15,6 +15,7 @@ const Home = () => {
   const card2 = Data.teaserSec.card2;
   const card3 = Data.teaserThird.card3;
   const card4 = Data.teaserThird.card4;
+
   //const { header, teaserMain } = Data.target;
   return (
     <>
@@ -56,8 +57,10 @@ const Home = () => {
           on={true}
         />
       </TeaserSec>
-      <TeaserThird>
+
+      <div className="m-0 m-auto max-w-screen-2xl md:flex pt-24 md:w-160 md:justify-between">
         <CardPic imgSrc={card3.imgSrc} imgAlt={card3.imgAlt} />
+
         <Card
           imgSrc={card4.imgSrc}
           imgAlt={card4.imgAlt}
@@ -67,7 +70,7 @@ const Home = () => {
           linkTo={card4.linkTo}
           linkColor={card4.linkColor}
         />
-      </TeaserThird>
+      </div>
     </>
   );
 };

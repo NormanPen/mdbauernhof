@@ -14,13 +14,18 @@ module.exports = {
         100: "40rem",
         110: "48rem",
         115: "50rem",
+        120: "53.125rem",
       },
       spacing: {
         160: "44.25rem",
       },
       backgroundImage: {
         "header-mobile": "url('images/bgMobileBlue.png')",
-        "hero-texture": "url('images/bgBigOvalLightPing.png')",
+        "hero-texture-pink": "url('images/bgBigOvalLightPing.png')",
+        heroTextureYellow: "url('images/bgHeroTextureYellow.png')",
+        teaserBgMobile: "url('images/bgMobilePink.svg')",
+        teaserBgMobileGreen: "url('images/bgMobileGreen.svg')",
+        teaserBgMobileYellow: "url('images/bgMobileYellow.svg')",
       },
       fontFamily: {
         Atma: ["Atma", "cursive"],

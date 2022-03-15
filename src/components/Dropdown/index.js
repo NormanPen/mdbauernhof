@@ -2,7 +2,7 @@ import "./style.css";
 import React from "react";
 import { Link } from "react-router-dom";
 
-import Logo from "../../images/Logo.svg";
+import Logo from "../Logo";
 
 const menuItems = [
   {
@@ -48,12 +48,7 @@ const Dropdown = ({ isOpen, toggle }) => {
         }
       >
         <div className="flex justify-between lg:hidden">
-          <div className="flex pl-5">
-            <img src={Logo} alt="Logo" className="pt-5" />
-            <h1 className="pt-5 pl-3 text-base font-medium font-Atma text-web-blue">
-              Erlebniswelt <br /> Bauernhof
-            </h1>
-          </div>
+          <Logo />
 
           <div
             className={

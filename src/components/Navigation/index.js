@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Logo from "../../images/Logo.svg";
+import Logo from "../Logo";
 
 const menuItems = [
   {
@@ -39,12 +39,7 @@ const Navigation = () => {
     <>
       <div className="absolute z-50 max-w-screen-2xl w-full  ">
         <div className=" pt-5  justify-between hidden  lg:flex">
-          <div className="flex pl-5">
-            <img src={Logo} alt="Logo" />
-            <h1 className="pl-3 text-base font-medium text-web-blue font-Atma">
-              Erlebniswelt <br /> Bauernhof
-            </h1>
-          </div>
+          <Logo />
           <nav>
             <ul className=" text-2xl pr-28 flex font-Atma text-web-blue ">
               {menuItems.map((id, index) => {

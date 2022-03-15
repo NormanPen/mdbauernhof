@@ -27,7 +27,7 @@ const Contact = () => {
           0157 / 32 58 93 12
         </a>{" "}
         oder per{" "}
-        <a className="text-web-grau" href="mailto:mdbauernhofœaol.com">
+        <a className="text-web-grau" href="mailto:mdbauernhof@aol.com">
           E-Mail
         </a>
         l mit uns in Verbindung.

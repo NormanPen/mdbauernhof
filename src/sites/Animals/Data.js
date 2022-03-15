@@ -1,4 +1,4 @@
-import bgMobileBlue from "../../images/bgMobileBlue.png";
+import bgMobile from "../../images/bgMobileGreen.svg";
 import bgGreenOval from "../../images/bgDeskGreen.svg";
 import bgAnimals from "../../images/bgAnimals.png";
 import cow from "../../images/cow.png";
@@ -12,7 +12,7 @@ const Data = {
   header: {
     heading: "Unsere Tiere",
     text: "Unsere Tiere lieben Kinder. Mit ihren freundlichen Gemüt lassen sie sich gerne streicheln. Unsere Tiere haben genug Zeit zur Entspannung und freuen sich immer über nette Besucher.",
-    bgMobile: bgMobileBlue,
+    bgMobile: bgMobile,
     bgMobileAlt: "Hindergrundbild Mobile",
     bgDesktop: bgGreenOval,
     bgDesktopAlt: "Hintrgrundbild Desktop",

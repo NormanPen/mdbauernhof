@@ -1,6 +1,6 @@
 const CardPic = ({ imgSrc, imgAlt }) => {
   return (
-    <div className="md:order-last">
+    <div className="">
       <img src={imgSrc} alt={imgAlt} />
     </div>
   );

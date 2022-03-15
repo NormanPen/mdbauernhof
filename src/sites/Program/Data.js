@@ -1,11 +1,15 @@
-import bgAboutMobile from "../../images/bgAboutMobile.svg";
+import bgAboutMobile from "../../images/bgMobilePink.svg";
 import bgDesktop from "../../images/bgProgramm.svg";
 import margotProgramm from "../../images/MargotProgramm.png";
 import huetchen from "../../images/huetchen.svg";
 import aepfel from "../../images/aepfel.png";
 import kindLeiter from "../../images/kindLeiter.png";
+import wedaEsel from "../../images/WedaWilmaBuchner.png";
+import stiefel from "../../images/boots.png";
+import tisch from "../../images/tisch.png";
+import boot from "../../images/boot.png";
 
-export const Data = {
+const Data = {
   header: {
     heading: "Unser Programm",
     text: "Unser Bauernhof bietet ein vielfältiges Programm. Von Kindergeburtstagen, über tiergestützte Pädagogik und -Therapie, bis zu Genreation 50+",
@@ -38,4 +42,36 @@ export const Data = {
       imgAlt: "Äpfel",
     },
   },
+  teaserThird: {
+    card3: {
+      imgSrc: wedaEsel,
+      imgAlt: "Kind auf Esel",
+    },
+    card4: {
+      heading: "Geführtes Eselreiten",
+      text: "Die Kinder können mit einem Voltigiergurt und Helm auf dem Esel reiten, dabei werden sie von einem Erwachsenen geführt. Dann kann eine Runde über Hof gedreht werden oder über Feldwege zum Wald.",
+      imgSrc: stiefel,
+      imgAlt: "Stiefel",
+      linkText: "Tiere kennenlernen",
+      linkTo: "/tiere",
+      linkColor: "bg-web-green",
+    },
+  },
+  teaserFourth: {
+    card5: {
+      heading: "Gemeinsam Essen Feiern",
+      text: "Unser Veranstaltungsraum bietet ausreichend Platz um gemeinsam Kuchen oder Pizza zu essen und die Geschenke auszupacken und ein Geburtstagsständchen zu singen. ",
+      imgSrc: tisch,
+      imgAlt: "Fest",
+      bgColor: "md:bg-hero-texture-pink",
+    },
+    card6: {
+      heading: "Kreativworkshops",
+      text: "Kreativprogramm kann gerne auch außerhalb eines Geburtstags gebucht werden. In einer Gruppe können Holzflöße gebastelt, oder z.B. Fosterhocker oder Teelicht-Häuschen getöpfert werden.                                                                                                                                  ",
+      imgSrc: boot,
+      imgAlt: "Holzboot",
+    },
+  },
 };
+
+export default Data;
