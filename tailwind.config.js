@@ -28,7 +28,7 @@ module.exports = {
         teaserBgMobileYellow: "url('images/bgMobileYellow.svg')",
       },
       fontFamily: {
-        Atma: ["Atma", "cursive"],
+        Atma: ["Atma", "regular"],
         SignikaNegative: ['"Signika Negative"', "sans-serif"],
       },
       colors: {
