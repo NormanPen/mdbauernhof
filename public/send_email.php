@@ -4,12 +4,12 @@ $email_from = "absender@domain.de";   //Absender falls keiner angegeben wurde
 $sendermail_antwort = true;      //E-Mail Adresse des Besuchers als Absender. false= Nein ; true = Ja
 $name_von_emailfeld = "email";   //Feld in der die Absenderadresse steht
  
-$empfaenger = "normanpendzich@gmail.com"; //Empfänger-Adresse
+$empfaenger = "mdbauernhof@aol.com"; //Empfänger-Adresse
 $mail_cc = ""; //CC-Adresse, diese E-Mail-Adresse bekommt einer weitere Kopie
 $betreff = "Neue Kontaktanfrage"; //Betreff der Email
  
 $url_ok = "https://www.mdbauernhof.de/#"; //Zielseite, wenn E-Mail erfolgreich versendet wurde
-$url_fehler = "http://www.mdbauernhof.de/#/mailfehler"; //Zielseite, wenn E-Mail nicht gesendet werden konnte
+$url_fehler = "https://www.mdbauernhof.de/#/mailfehler"; //Zielseite, wenn E-Mail nicht gesendet werden konnte
  
  
 //Diese Felder werden nicht in der Mail stehen

@@ -2,7 +2,7 @@ import Header from "../../components/Header";
 import Flag from "../../components/Flag";
 import Teaser from "../../components/Teaser";
 import TeaserSec from "../../components/TeaserSec";
-import TeaserThird from "../../components/TeaserThird";
+//import TeaserThird from "../../components/TeaserThird";
 import Card from "../../components/Card";
 import CardPic from "../../components/CardPic";
 
