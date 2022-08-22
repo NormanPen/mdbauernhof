@@ -5,8 +5,12 @@
 
 @font-face {
     font-family: 'Atma';
-    src: local('Atma'), url(./fonts/Atma/Atma-Regular.ttf) format('truetype');
+    src: local('Atma'), url(./fonts/Atma/Atma-Medium.ttf) format('truetype');
 
+}
+@font-face {
+    font-family: 'AtmaRegular';
+    src: local('AtmaRegular'), url(./fonts/Atma/Atma-Regular.ttf) format('truetype');
 
 }
 @font-face {

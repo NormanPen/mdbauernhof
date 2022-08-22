@@ -6,7 +6,7 @@ const Teaser = ({ imgsrc, imgalt, heading, text }) => {
         <div className="flex justify-center">
           <img src={imgsrc} alt={imgalt} className="flex justify-center pb-8" />
         </div>
-        <h2 className=" text-3xl font-medium font-Atma">{heading}</h2>
+        <h2 className=" text-3xl font-medium font-Atma ">{heading}</h2>
         <p className="pt-6 text-base font-Signika-Negative">{text}</p>
       </article>
     </div>

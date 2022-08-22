@@ -1,6 +1,6 @@
 export const PriceList = () => {
   return (
-    <div className="pt-24 md:w-160 m-0 m-auto px-9">
+    <div className="pt-24 md:w-160 m-0 m-auto px-0">
       <div className="text-center ">
         <h1 className="text-3xl mb-20 font-Atma">Preisliste</h1>
         <h2 className="text-xl mb-4 font-bold">Kindergeburtstage</h2>
@@ -65,6 +65,7 @@ export const PriceList = () => {
         </div>
         <div>
           <p>15€</p>
+          <br />
           <br />
           <p>5€</p>
         </div>

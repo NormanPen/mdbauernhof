@@ -29,6 +29,7 @@ module.exports = {
       },
       fontFamily: {
         Atma: ["Atma", "regular"],
+        AtmaRegular: ["AtmaRegular"],
         SignikaNegative: ['"Signika Negative"', "sans-serif"],
       },
       colors: {

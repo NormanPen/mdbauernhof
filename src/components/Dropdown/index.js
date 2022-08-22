@@ -82,7 +82,7 @@ const Dropdown = ({ isOpen, toggle }) => {
         }
         onClick={toggle}
       >
-        <ul className="text-4xl text-center font-Atma">
+        <ul className="text-4xl text-center font-AtmaRegular">
           {menuItems.map((id, index) => {
             return (
               <li key={index} className="pb-8">

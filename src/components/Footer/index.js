@@ -20,7 +20,7 @@ const Footer = () => {
             <img className="" src={mailicon} alt="Mail Symbol" />
           </div>
 
-          <h3 className="pt-5 text-3xl font-Atma">Kontakt</h3>
+          <h3 className="pt-5 text-3xl font-AtmaRegular">Kontakt</h3>
           <p className="px-4 pt-4">
             Sie möchten mehr Informationen oder eine Buchung anfragen? Dann
             kontaktieren Sie uns gerne.
@@ -31,7 +31,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="bg-web-blue-light">
-        <div className="grid-cols-3 pl-14 m-0 m-auto max-w-screen-2xl bg-web-blue-light font-Atma md:grid md:pr-28 lg:pr-40 xl:pr-0 2xl:pr-0">
+        <div className="grid-cols-3 pl-14 m-0 m-auto max-w-screen-2xl bg-web-blue-light font-AtmaRegular md:grid md:pr-28 lg:pr-40 xl:pr-0 2xl:pr-0">
           <div>
             <h3 className="pt-14 text-3xl">Erleben</h3>
             <ul className="text-2xl leading-10 text-white">
