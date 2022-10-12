@@ -11,6 +11,7 @@ import Contact from "./sites/Contact";
 import Footer from "./components/Footer";
 
 import Imprint from "./sites/Imprint";
+import Datenschutz from "./sites/Datenschutz";
 import MailError from "./sites/MailError";
 import NotAvailable from "./sites/NotAvailable";
 import ScrollToTop from "./helper/ScrollTotop";
@@ -50,6 +51,7 @@ const App = () => {
               <Animals path="/tiere" component={Animals} />
               <Contact path="/kontakt" component={Contact} />
               <Imprint path="/impressum" component={Imprint} />
+              <Datenschutz path="/datenschutz" component={Datenschutz} />
               <MailError path="/mailfehler" component={MailError} />
               <Route component={NotAvailable} />
             </Switch>

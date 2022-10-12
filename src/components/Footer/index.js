@@ -56,6 +56,9 @@ const Footer = () => {
               <li>
                 <Link to="/impressum">Impressum</Link>
               </li>
+              <li>
+                <Link to="/datenschutz">Datenschutz</Link>
+              </li>
             </ul>
             <div className="flex pt-9 footer-sozial">
               <a

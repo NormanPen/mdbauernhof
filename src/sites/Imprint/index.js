@@ -86,18 +86,9 @@ const Imprint = () => {
           Publikationen ist ohne ausdrückliche Zustimmung des Autors nicht
           gestattet.
         </p>
-        <h3 className="text-xl mb-4">4. Datenschutz</h3>
-        <p className="mb-10">
-          Sofern innerhalb des Internetangebotes die Möglichkeit zur Eingabe
-          persönlicher oder geschäftlicher Daten (Emailadressen, Namen,
-          Anschriften) besteht, so erfolgt die Preisgabe dieser Daten seitens
-          des Nutzers auf ausdrücklich freiwilliger Basis. Die Inanspruchnahme
-          und Bezahlung aller angebotenen Dienste ist - soweit technisch möglich
-          und zumutbar - auch ohne Angabe solcher Daten bzw. unter Angabe
-          anonymisierter Daten oder eines Pseudonyms gestattet.
-        </p>
+
         <h3 className="text-xl mb-4">
-          5. Rechtswirksamkeit dieses Haftungsausschlusses
+          4. Rechtswirksamkeit dieses Haftungsausschlusses
         </h3>
         <p className="mb-10">
           Dieser Haftungsausschluss ist als Teil des Internetangebotes zu
@@ -107,6 +98,7 @@ const Imprint = () => {
           die übrigen Teile des Dokumentes in ihrem Inhalt und ihrer Gültigkeit
           davon unberührt.
         </p>
+        
       </div>
     </div>
   );
