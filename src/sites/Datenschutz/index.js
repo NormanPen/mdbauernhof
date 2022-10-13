@@ -486,6 +486,279 @@ const Datenschutz = () => {
                         und es gesetzliche Vorgaben erlauben.
                     </p>
                 </section>
+                <section>
+                    <h2 className='text-2xl mb-4 mt-8 font-bold'>
+                        Online Formulare
+                    </h2>
+                    <p>
+                        Wenn Sie mit uns mittels Online-Formular kommunizieren,
+                        werden Daten auf unserem Webserver gespeichert und
+                        gegebenenfalls an eine E-Mail-Adresse von uns
+                        weitergeleitet. Die Daten werden gelöscht, sobald der
+                        Geschäftsfall beendet wurde und es gesetzliche Vorgaben
+                        erlauben.
+                    </p>
+                </section>
+                <section>
+                    <h2 className='text-2xl mb-4 mt-8 font-bold'>
+                        Rechtsgrundlagen
+                    </h2>
+                    <p>
+                        Die Verarbeitung der Daten basiert auf den folgenden
+                        Rechtsgrundlagen:
+                    </p>
+                    <ul className='list-disc ml-8 mt-4'>
+                        <li>
+                            Art. 6 Abs. 1 lit. a DSGVO (Einwilligung): Sie geben
+                            uns die Einwilligung Ihre Daten zu speichern und
+                            weiter für den Geschäftsfall betreffende Zwecke zu
+                            verwenden;
+                        </li>
+                        <li>
+                            Art. 6 Abs. 1 lit. b DSGVO (Vertrag): Es besteht die
+                            Notwendigkeit für die Erfüllung eines Vertrags mit
+                            Ihnen oder einem Auftragsverarbeiter wie z. B. dem
+                            Telefonanbieter oder wir müssen die Daten für
+                            vorvertragliche Tätigkeiten, wie z. B. die
+                            Vorbereitung eines Angebots, verarbeiten;
+                        </li>
+                        <li>
+                            Art. 6 Abs. 1 lit. f DSGVO (Berechtigte Interessen):
+                            Wir wollen Kundenanfragen und geschäftliche
+                            Kommunikation in einem professionellen Rahmen
+                            betreiben. Dazu sind gewisse technische
+                            Einrichtungen wie z. B. E-Mail-Programme,
+                            Exchange-Server und Mobilfunkbetreiber notwendig, um
+                            die Kommunikation effizient betreiben zu können.
+                        </li>
+                    </ul>
+                </section>
+                <section>
+                    <h2 className='text-2xl mb-4 mt-8 font-bold'>
+                        Webhosting Einleitung
+                    </h2>
+                    <div className='ml-6 mb-6'>
+                        Webhosting Zusammenfassung
+                        <br />
+                        👥 Betroffene: Besucher der Website
+                        <br />
+                        🤝 Zweck: professionelles Hosting der Website und
+                        Absicherung des Betriebs
+                        <br />
+                        📓 Verarbeitete Daten: IP-Adresse, Zeitpunkt des
+                        Websitebesuchs, verwendeter Browser und weitere Daten.
+                        Mehr Details dazu finden Sie weiter unten bzw. beim
+                        jeweils eingesetzten Webhosting Provider.
+                        <br />
+                        📅 Speicherdauer: abhängig vom jeweiligen Provider, aber
+                        in der Regel 2 Wochen
+                        <br />
+                        ⚖️ Rechtsgrundlagen: Art. 6 Abs. 1 lit.f DSGVO
+                        (Berechtigte Interessen)
+                        <br />
+                    </div>
+                </section>
+                <section>
+                    <h2 className='text-2xl mb-4 mt-8 font-bold'>
+                        Was ist Webhosting?
+                    </h2>
+                    <p className='mb-6'>
+                        Wenn Sie heutzutage Websites besuchen, werden gewisse
+                        Informationen – auch personenbezogene Daten –
+                        automatisch erstellt und gespeichert, so auch auf dieser
+                        Website. Diese Daten sollten möglichst sparsam und nur
+                        mit Begründung verarbeitet werden. Mit Website meinen
+                        wir übrigens die Gesamtheit aller Webseiten auf einer
+                        Domain, d.h. alles von der Startseite (Homepage) bis hin
+                        zur aller letzten Unterseite (wie dieser hier). Mit
+                        Domain meinen wir zum Beispiel beispiel.de oder
+                        musterbeispiel.com.
+                    </p>
+                    <p className='mb-6'>
+                        Wenn Sie eine Website auf einem Computer, Tablet oder
+                        Smartphone ansehen möchten, verwenden Sie dafür ein
+                        Programm, das sich Webbrowser nennt. Sie kennen
+                        vermutlich einige Webbrowser beim Namen: Google Chrome,
+                        Microsoft Edge, Mozilla Firefox und Apple Safari. Wir
+                        sagen kurz Browser oder Webbrowser dazu.
+                    </p>
+                    <p className='mb-6'>
+                        Um die Website anzuzeigen, muss sich der Browser zu
+                        einem anderen Computer verbinden, wo der Code der
+                        Website gespeichert ist: dem Webserver. Der Betrieb
+                        eines Webservers ist eine komplizierte und aufwendige
+                        Aufgabe, weswegen dies in der Regel von professionellen
+                        Anbietern, den Providern, übernommen wird. Diese bieten
+                        Webhosting an und sorgen damit für eine verlässliche und
+                        fehlerfreie Speicherung der Daten von Websites. Eine
+                        ganze Menge Fachbegriffe, aber bitte bleiben Sie dran,
+                        es wird noch besser!
+                    </p>
+                    <p className='mb-6'>
+                        Bei der Verbindungsaufnahme des Browsers auf Ihrem
+                        Computer (Desktop, Laptop, Tablet oder Smartphone) und
+                        während der Datenübertragung zu und vom Webserver kann
+                        es zu einer Verarbeitung personenbezogener Daten kommen.
+                        Einerseits speichert Ihr Computer Daten, andererseits
+                        muss auch der Webserver Daten eine Zeit lang speichern,
+                        um einen ordentlichen Betrieb zu gewährleisten.
+                    </p>
+                    <p className='mb-6'>
+                        Ein Bild sagt mehr als tausend Worte, daher zeigt
+                        folgende Grafik zur Veranschaulichung das Zusammenspiel
+                        zwischen Browser, dem Internet und dem Hosting-Provider.
+                    </p>
+                </section>
+                <section>
+                    <h2 className='text-2xl mb-4 mt-8 font-bold'>
+                        Warum verarbeiten wir personenbezogene Daten?
+                    </h2>
+                    <p className='mb-6'>
+                        Die Zwecke der Datenverarbeitung sind:
+                    </p>
+                    <ol className='list-decimal ml-6 mb-8'>
+                        <li>
+                            Professionelles Hosting der Website und Absicherung
+                            des Betriebs
+                        </li>
+                        <li>
+                            zur Aufrechterhaltung der Betriebs- und
+                            IT-Sicherheit
+                        </li>
+                        <li>
+                            Anonyme Auswertung des Zugriffsverhaltens zur
+                            Verbesserung unseres Angebots und ggf. zur
+                            Strafverfolgung bzw. Verfolgung von Ansprüchen
+                        </li>
+                    </ol>
+                </section>
+                <section>
+                    <h2 className='text-2xl mb-4 mt-8 font-bold'>
+                        Welche Daten werden verarbeitet?
+                    </h2>
+                    <p className='mb-6'>
+                        Auch während Sie unsere Website jetzt gerade besuchen,
+                        speichert unser Webserver, das ist der Computer auf dem
+                        diese Webseite gespeichert ist, in der Regel automatisch
+                        Daten wie
+                    </p>
+                    <ul className='list-disc ml-8 mt-4'>
+                        <li>
+                            die komplette Internetadresse (URL) der aufgerufenen
+                            Webseite
+                        </li>
+                        <li>Browser und Browserversion (z. B. Chrome 87)</li>
+                        <li>
+                            das verwendete Betriebssystem (z. B. Windows 10)
+                        </li>
+                        <li>
+                            die Adresse (URL) der zuvor besuchten Seite
+                            (Referrer URL) (z. B.
+                            https://www.beispielquellsite.de/vondabinichgekommen/)
+                        </li>
+                        <li>
+                            den Hostnamen und die IP-Adresse des Geräts von
+                            welchem aus zugegriffen wird (z. B. COMPUTERNAME und
+                            194.23.43.121)
+                        </li>
+                        <li>Datum und Uhrzeit</li>
+                        <li>in Dateien, den sogenannten Webserver-Logfiles</li>
+                    </ul>
+                </section>
+                <section>
+                    <h2 className='text-2xl mb-4 mt-8 font-bold'>
+                        Wie lange werden Daten gespeichert?
+                    </h2>
+                    <p className='mb-6'>
+                        In der Regel werden die oben genannten Daten zwei Wochen
+                        gespeichert und danach automatisch gelöscht. Wir geben
+                        diese Daten nicht weiter, können jedoch nicht
+                        ausschließen, dass diese Daten beim Vorliegen von
+                        rechtswidrigem Verhalten von Behörden eingesehen werden.
+                    </p>
+                    <p className='mb-6'>
+                        Kurz gesagt: Ihr Besuch wird durch unseren Provider
+                        (Firma, die unsere Website auf speziellen Computern
+                        (Servern) laufen lässt), protokolliert, aber wir geben
+                        Ihre Daten nicht ohne Zustimmung weiter!
+                    </p>
+                </section>
+                <section>
+                    <h2 className='text-2xl mb-4 mt-8 font-bold'>
+                        Rechtsgrundlage
+                    </h2>
+                    <p className='mb-6'>
+                        Die Rechtmäßigkeit der Verarbeitung personenbezogener
+                        Daten im Rahmen des Webhosting ergibt sich aus Art. 6
+                        Abs. 1 lit. f DSGVO (Wahrung der berechtigten
+                        Interessen), denn die Nutzung von professionellem
+                        Hosting bei einem Provider ist notwendig, um das
+                        Unternehmen im Internet sicher und nutzerfreundlich
+                        präsentieren und Angriffe und Forderungen hieraus
+                        gegebenenfalls verfolgen zu können.
+                    </p>
+                    <p className='mb-6'>
+                        Zwischen uns und dem Hosting-Provider besteht in der
+                        Regel ein Vertrag über die Auftragsverarbeitung gemäß
+                        Art. 28 f. DSGVO, der die Einhaltung von Datenschutz
+                        gewährleistet und Datensicherheit garantiert.
+                    </p>
+                </section>
+                <section>
+                    <h2 className='text-2xl mb-4 mt-8 font-bold'>
+                        1&1 IONOS Webhosting Datenschutzerklärung
+                    </h2>
+                    <p className='mb-6'>
+                        Wir nutzen IONOS by 1&1 um unsere Website zu hosten. In
+                        Deutschland hat die 1&1 IONOS SE ihren Sitz in
+                        Elgendorfer Str. 57, 56410 Montabaur, in Österreich
+                        finden Sie die 1&1 IONOS SE in der Gumpendorfer Straße
+                        142/PF 266, 1060 Wien. IONOS bietet folgende Leistungen
+                        rund um Webhosting an: Domain, Website & Shop, Hosting &
+                        WordPress, Marketing, E-Mail & Office, IONOS Cloud und
+                        Server.
+                    </p>
+                    <p className='mb-6'>
+                        Wie im Abschnitt “Automatische Datenspeicherung”
+                        erläutert, speichern Webserver, wie die von IONOS, Daten
+                        jedes Websitebesuchs ab.
+                    </p>
+                    <p className='mb-6'>
+                        Wenn Sie mehr über den Datenschutz für IONOS Website
+                        erfahren möchten, besuchen Sie bitte die
+                        Datenschutzerklärung auf ionos.de.
+                    </p>
+                </section>
+                <section>
+                    <h2 className='text-2xl mb-4 mt-8 font-bold'>
+                        Auftragsverarbeitungsvertrag (AVV) IONOS
+                    </h2>
+                    <p className='mb-6'>
+                        Wir haben im Sinne des Artikels 28 der
+                        Datenschutz-Grundverordnung (DSGVO) mit IONOS einen
+                        Auftragsverarbeitungsvertrag (AVV) abgeschlossen. Was
+                        ein AVV genau ist und vor allem was in einem AVV
+                        enthalten sein muss, können Sie in unserem allgemeinen
+                        Abschnitt „Auftragsverarbeitungsvertrag (AVV)“
+                        nachlesen.
+                    </p>
+                    <p className='mb-6'>
+                        Dieser Vertrag ist gesetzlich vorgeschrieben, weil IONOS
+                        in unserem Auftrag personenbezogene Daten verarbeitet.
+                        Darin wird geklärt, dass IONOS Daten, die sie von uns
+                        erhalten, nur nach unserer Weisung verarbeiten darf und
+                        die DSGVO einhalten muss. Den Link zum
+                        Auftragsverarbeitungsvertrag (AVV) finden Sie unter
+                        https://www.ionos.de/hilfe/datenschutz/allgemeine-informationen-zur-datenschutz-grundverordnung-dsgvo/auftragsverarbeitung/.
+                    </p>
+                    <p className='mb-6'>
+                        Alle Texte sind urheberrechtlich geschützt.
+                    </p>
+                    <p className='mb-6'>
+                        Quelle: Erstellt mit dem Datenschutz Generator von
+                        AdSimple
+                    </p>
+                </section>
             </article>
         </div>
     );
