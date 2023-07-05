@@ -23,11 +23,11 @@ export const PriceList = () => {
           </p>
         </div>
         <div className="">
-          <p>140€</p>
-          <p>160€</p>
+          <p>155€</p>
+          <p>175€</p>
           <p>15€</p>
           <p>15€</p>
-          <p>50€</p>
+          <p>60€</p>
         </div>
       </div>
       <div className="text-center font-bold pb-4">
@@ -64,10 +64,10 @@ export const PriceList = () => {
           </p>
         </div>
         <div>
-          <p>15€</p>
+          <p>20€</p>
           <br />
           <br />
-          <p>5€</p>
+          <p>10€</p>
         </div>
       </div>
       <div className="text-center">
